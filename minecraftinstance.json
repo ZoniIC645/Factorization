@@ -762,10 +762,10 @@
   ],
   "isMemoryOverride": false,
   "allocatedMemory": 12288,
-  "guid": "93f32054-0a2b-4f97-8403-255f66718b3a",
+  "guid": "e4ab44ae-a451-43a1-8330-7998ae328ace",
   "gameTypeID": 432,
-  "installPath": "C:\\Users\\user\\Documents\\Curse\\Minecraft\\Instances\\Auto (1)\\",
-  "name": "Auto (1)",
+  "installPath": "C:\\Users\\user\\Documents\\Curse\\Minecraft\\Instances\\Auto\\",
+  "name": "Auto",
   "cachedScans": [],
   "isValid": true,
   "lastPreviousMatchUpdate": "0001-01-01T00:00:00",
@@ -789,11 +789,11 @@
     "LastSyncDate": "0001-01-01T00:00:00"
   },
   "preferenceShowAddOnInfo": true,
-  "installDate": "2018-12-28T09:34:28.1366343Z",
+  "installDate": "2018-12-28T09:52:33.0456123Z",
   "installedAddons": [
     {
       "addonID": 238222,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2652749,
         "fileName": "jei_1.12.2-4.14.3.242.jar",
@@ -847,11 +847,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 32274,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2640111,
         "fileName": "journeymap-1.12.2-5.5.3",
@@ -930,11 +930,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223852,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2642386,
         "fileName": "StorageDrawers-1.12.2-5.3.8.jar",
@@ -995,11 +995,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 297057,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2577646,
         "fileName": "letsencryptcraft-1.10.2-1.0.0.jar",
@@ -1060,11 +1060,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223628,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2629023,
         "fileName": "Thaumcraft-1.12.2-6.1.BETA26.jar",
@@ -1143,11 +1143,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 245211,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2629328,
         "fileName": "TheOneProbe - 1.12-1.4.25",
@@ -1214,11 +1214,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 247111,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2642149,
         "fileName": "topaddons-1.12.2-1.10.1.jar",
@@ -1285,11 +1285,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 240633,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2546769,
         "fileName": "inventorysorter-1.12.2-1.13.3+57.jar",
@@ -1347,11 +1347,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 284563,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2639305,
         "fileName": "TeamIslands-1.0.1.14.jar",
@@ -1414,11 +1414,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 242638,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2650647,
         "fileName": "industrialcraft-2-2.8.105-ex112.jar",
@@ -1476,11 +1476,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 231951,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2652289,
         "fileName": "Immersive Engineering 0.12 - 88",
@@ -1543,11 +1543,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 251121,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2643481,
         "fileName": "1.7-33 (MC 1.12.x, fixed)",
@@ -1610,11 +1610,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 228756,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2638052,
         "fileName": "ironchest-1.12.2-7.0.54.838.jar",
@@ -1668,11 +1668,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 227049,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2564573,
         "fileName": "IronBackpacks-1.12.2-3.0.8-12.jar",
@@ -1731,11 +1731,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 254602,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2580052,
         "fileName": "Tesla Core Lib : 1.0.15.13",
@@ -1794,11 +1794,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 266515,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2651369,
         "fileName": "industrialforegoing-1.12.2-1.12.2-226.jar",
@@ -1853,11 +1853,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 253211,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2567171,
         "fileName": "MTLib-3.0.5",
@@ -1910,11 +1910,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 220954,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2629419,
         "fileName": "modtweaker-4.0.15",
@@ -1971,11 +1971,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 270789,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2623090,
         "fileName": "RedstoneFlux-1.12-2.1.0.6-universal.jar",
@@ -2025,11 +2025,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 222880,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2623991,
         "fileName": "ThermalFoundation-1.12.2-2.6.1.22-universal.jar",
@@ -2088,11 +2088,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 227443,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2624182,
         "fileName": "ThermalDynamics-1.12.2-2.5.3.16-universal.jar",
@@ -2151,11 +2151,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 69163,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2624855,
         "fileName": "ThermalExpansion-1.12.2-5.5.2.39-universal.jar",
@@ -2214,11 +2214,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229002,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2572409,
         "fileName": "MrTJPCore-1.12.2-2.1.3.35-universal.jar",
@@ -2277,11 +2277,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 228702,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2572423,
         "fileName": "ProjectRed-1.12.2-4.9.1.92-Base.jar",
@@ -2348,11 +2348,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229045,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2572427,
         "fileName": "ProjectRed-1.12.2-4.9.1.92-integration.jar",
@@ -2407,11 +2407,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229048,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2572422,
         "fileName": "ProjectRed-1.12.2-4.9.1.92-mechanical.jar",
@@ -2466,11 +2466,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229049,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2572421,
         "fileName": "ProjectRed-1.12.2-4.9.1.92-world.jar",
@@ -2525,11 +2525,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 230111,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2572424,
         "fileName": "ProjectRed-1.12.2-4.9.1.92-fabrication.jar",
@@ -2588,11 +2588,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229050,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2572420,
         "fileName": "ProjectRed-1.12.2-4.9.1.92-compat.jar",
@@ -2651,11 +2651,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 60089,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2632649,
         "fileName": "[1.12.2] Mouse Tweaks 2.9",
@@ -2709,11 +2709,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223094,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2650625,
         "fileName": "Inventory Tweaks 1.64+dev.144",
@@ -2779,11 +2779,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 248370,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2490058,
         "fileName": "JEI Bees 0.9.0.5 (MC 1.12.2)",
@@ -2844,11 +2844,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 285492,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2637182,
         "fileName": "ThaumicJEI-1.12.2-1.5.5-23.jar",
@@ -2907,11 +2907,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 265917,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2491927,
         "fileName": "jeiintegration_1.12.2-1.5.1.36",
@@ -2970,11 +2970,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 283013,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2508393,
         "fileName": "jeivillagers-1.12-1.0.2.jar",
@@ -3031,11 +3031,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 223666,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2642081,
         "fileName": "(AE2-RV6) Thaumic Energistics 2.0.0",
@@ -3098,11 +3098,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237701,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2560638,
         "fileName": "ReAuth-3.6.0 1.12",
@@ -3150,11 +3150,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 240630,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2603567,
         "fileName": "JustEnoughResources-1.12.2-0.8.10.50",
@@ -3213,11 +3213,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268250,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2544919,
         "fileName": "immersivepetroleum-1.12.2-1.1.9.jar",
@@ -3276,11 +3276,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 229046,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2572426,
         "fileName": "ProjectRed-1.12.2-4.9.1.92-lighting.jar",
@@ -3335,11 +3335,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 274159,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2568579,
         "fileName": "immersivetech-1.12-1.3.10.jar",
@@ -3389,11 +3389,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 281849,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2641264,
         "fileName": "pneumaticcraft-repressurized-1.12.2-0.8.4-303.jar",
@@ -3452,11 +3452,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250898,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2641164,
         "fileName": "OreExcavation-1.4.133.jar",
@@ -3510,11 +3510,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 246764,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2452234,
         "fileName": "Tree Growing Simulator - 1.0.1",
@@ -3569,11 +3569,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 74924,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2630843,
         "fileName": "Mantle-1.12-1.3.3.39.jar",
@@ -3627,11 +3627,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 74072,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2630883,
         "fileName": "TConstruct-1.12.2-2.11.0.106.jar",
@@ -3694,11 +3694,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250957,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2630860,
         "fileName": "TinkerToolLeveling-1.12.2-1.1.0.jar",
@@ -3761,11 +3761,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 272671,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2546782,
         "fileName": "Tinkers Complement 0.2.3b for 1.12.2",
@@ -3844,11 +3844,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 291786,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2549634,
         "fileName": "tinkersjei-1.0.jar",
@@ -3911,11 +3911,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 253043,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2651482,
         "fileName": "WanionLib-1.12.2-2.2.jar",
@@ -3969,11 +3969,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 239418,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2645156,
         "fileName": "Sonar-Core-1.12.2-5.0.19",
@@ -4036,11 +4036,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 239431,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2615930,
         "fileName": "MCMultiPart 2.5.3",
@@ -4086,11 +4086,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 263048,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2643354,
         "fileName": "PracticalLogistics2-1.12.2-3.0.8",
@@ -4165,11 +4165,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 240783,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2645984,
         "fileName": "Harvest-1.12-1.2.7-20.jar",
@@ -4217,11 +4217,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 254241,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2646351,
         "fileName": "MobGrindingUtils-0.3.12.jar",
@@ -4271,11 +4271,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278611,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2648904,
         "fileName": "TinkerSkyblock-1.12.2-1.2.jar",
@@ -4338,11 +4338,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 309119,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2652640,
         "fileName": "scoreboard-1.0.jar",
@@ -4409,11 +4409,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 250711,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2567363,
         "fileName": "limelib-1.12.2-1.7.12.jar",
@@ -4465,11 +4465,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278870,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2634701,
         "fileName": "playerstorage-1.12.2-1.3.10.jar",
@@ -4526,11 +4526,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 306935,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2652490,
         "fileName": "SuperFactoryManager-1.12.2-2.0.4.jar",
@@ -4580,11 +4580,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 237903,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2650479,
         "fileName": "RebornCore-1.12.2-3.12.1.385-universal.jar",
@@ -4652,11 +4652,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 233564,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2650476,
         "fileName": "TechReborn-1.12.2-2.19.1.877-universal.jar",
@@ -4721,11 +4721,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 244049,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2640087,
         "fileName": "woot-1.12.2-1.4.8.jar",
@@ -4780,11 +4780,11 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 243478,
-      "gameInstanceID": "93f32054-0a2b-4f97-8403-255f66718b3a",
+      "gameInstanceID": "e4ab44ae-a451-43a1-8330-7998ae328ace",
       "installedFile": {
         "id": 2589773,
         "fileName": "moreoverlays-1.14-mc1.12.2.jar",
@@ -4839,7 +4839,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     }
   ],
   "isMigrated": false,
