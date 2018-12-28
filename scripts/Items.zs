@@ -44,3 +44,16 @@ Biological_Iron.register();
 //korean_ramen_powder
 var korean_ramen_powder = VanillaFactory.createItem("korean_ramen_powder");
 korean_ramen_powder.register();
+
+//Essence of greed
+var greed_crystal = VanillaFactory.createItem("greed_crystal");
+greed_crystal.glowing = true;
+greed_crystal.register();
+
+//battries
+var battery_hull = VanillaFactory.createItem("battery_hull");
+var alkaline_battery = VanillaFactory.createItem("alkaline_battery");
+var sunshine_battery = VanillaFactory.createItem("sunshine_battery");
+battery_hull.register();
+alkaline_battery.register();
+sunshine_battery.register();

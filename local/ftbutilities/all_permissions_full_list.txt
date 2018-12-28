@@ -1,4 +1,4 @@
-7788 nodes in total
+7799 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -640,6 +640,7 @@ ftbutilities.claims.block.edit.conarm.armorforge: OP
 ftbutilities.claims.block.edit.conarm.armorstation: OP
 ftbutilities.claims.block.edit.conarm.soft_obsidian: OP
 ftbutilities.claims.block.edit.contenttweaker.abyss_stew: OP
+ftbutilities.claims.block.edit.contenttweaker.alkali: OP
 ftbutilities.claims.block.edit.contenttweaker.bio_goo: OP
 ftbutilities.claims.block.edit.contenttweaker.happiness_fluid: OP
 ftbutilities.claims.block.edit.enderio.block_advanced_power_monitor: OP
@@ -2646,6 +2647,7 @@ ftbutilities.claims.block.interact.conarm.armorforge: OP
 ftbutilities.claims.block.interact.conarm.armorstation: OP
 ftbutilities.claims.block.interact.conarm.soft_obsidian: OP
 ftbutilities.claims.block.interact.contenttweaker.abyss_stew: OP
+ftbutilities.claims.block.interact.contenttweaker.alkali: OP
 ftbutilities.claims.block.interact.contenttweaker.bio_goo: OP
 ftbutilities.claims.block.interact.contenttweaker.happiness_fluid: OP
 ftbutilities.claims.block.interact.enderio.block_advanced_power_monitor: OP
@@ -4805,13 +4807,17 @@ ftbutilities.claims.item.conarm.travel_slowfall: ALL
 ftbutilities.claims.item.conarm.travel_sneak: ALL
 ftbutilities.claims.item.conarm.travel_soul: ALL
 ftbutilities.claims.item.contenttweaker.abyss_stew: ALL
+ftbutilities.claims.item.contenttweaker.alkaline_battery: ALL
+ftbutilities.claims.item.contenttweaker.battery_hull: ALL
 ftbutilities.claims.item.contenttweaker.biological_iron: ALL
 ftbutilities.claims.item.contenttweaker.burnt_happiness_circuit: ALL
+ftbutilities.claims.item.contenttweaker.greed_crystal: ALL
 ftbutilities.claims.item.contenttweaker.happiness_circuit: ALL
 ftbutilities.claims.item.contenttweaker.korean_ramen_powder: ALL
 ftbutilities.claims.item.contenttweaker.obsidian_prime: ALL
 ftbutilities.claims.item.contenttweaker.plantball_terrafirma: ALL
 ftbutilities.claims.item.contenttweaker.stalinless_steel: ALL
+ftbutilities.claims.item.contenttweaker.sunshine_battery: ALL
 ftbutilities.claims.item.contenttweaker.unstable_obsidian_prime: ALL
 ftbutilities.claims.item.contenttweaker.void_happiness_circuit: ALL
 ftbutilities.claims.item.enderio.block_advanced_power_monitor: ALL
@@ -5062,14 +5068,19 @@ ftbutilities.claims.item.exnihilocreatio.item_ore_aluminium: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_aluminum: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_ardite: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_bauxite: ALL
+ftbutilities.claims.item.exnihilocreatio.item_ore_cinnabar: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_cobalt: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_copper: ALL
+ftbutilities.claims.item.exnihilocreatio.item_ore_galena: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_gold: ALL
+ftbutilities.claims.item.exnihilocreatio.item_ore_iridium: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_iron: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_lead: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_nickel: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_platinum: ALL
+ftbutilities.claims.item.exnihilocreatio.item_ore_pyrite: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_silver: ALL
+ftbutilities.claims.item.exnihilocreatio.item_ore_sphalerite: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_tin: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_tungsten: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_uranium: ALL

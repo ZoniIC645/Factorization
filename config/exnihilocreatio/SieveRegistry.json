@@ -1274,7 +1274,7 @@
         "meta": 3
       },
       "chance": 0.03,
-      "meshLevel": 3
+      "meshLevel": 4
     },
 	{
       "drop": {
@@ -1282,7 +1282,7 @@
         "meta": 4
       },
       "chance": 0.03,
-      "meshLevel": 3
+      "meshLevel": 4
     },
 	{
       "drop": {
@@ -1290,7 +1290,7 @@
         "meta": 0
       },
       "chance": 0.01,
-      "meshLevel": 3
+      "meshLevel": 2
     },
 	{
       "drop": {

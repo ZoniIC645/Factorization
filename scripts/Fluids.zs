@@ -12,3 +12,6 @@ happiness_fluid.register();
 
 var bio_goo = VanillaFactory.createFluid("bio_goo", Color.fromHex("004f00"));
 bio_goo.register();
+
+var alkali = VanillaFactory.createFluid("alkali", Color.fromHex("d8e7ff"));
+alkali.register();
