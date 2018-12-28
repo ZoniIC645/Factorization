@@ -2,19 +2,19 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:1.0
+gamma:0.0
 saturation:0.0
 renderDistance:12
 guiScale:0
-particles:1
-bobView:false
+particles:0
+bobView:true
 anaglyph3d:false
 maxFps:120
 fboEnable:true
 difficulty:2
-fancyGraphics:false
-ao:0
-renderClouds:fast
+fancyGraphics:true
+ao:2
+renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:
@@ -43,7 +43,7 @@ mipmapLevels:0
 forceUnicodeFont:false
 reducedDebugInfo:false
 useNativeTransport:true
-entityShadows:false
+entityShadows:true
 mainHand:right
 attackIndicator:1
 showSubtitles:false
@@ -85,13 +85,13 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_Change Caster Focus:33
+key_Misc Caster Toggle:34
 key_ALT Key:56
 key_Boost Key:29
 key_Mode Switch Key:50
 key_Side Inventory Key:46
 key_Hub Expand Key:45
-key_Change Caster Focus:33
-key_Misc Caster Toggle:34
 key_keybind.baublesinventory:48
 key_enderio.keybind.glidertoggle:34
 key_enderio.keybind.soundlocator:0
@@ -115,11 +115,13 @@ key_key.ftbguides.guide:34:ALT
 key_key.ftbquests.quests:34:CONTROL
 key_key.ftbutilities.warp:35
 key_key.ftbutilities.nbt:49:ALT
-key_key.inventorysorter.itemin:-200
-key_key.inventorysorter.sort:-98
 key_key.inventorysorter.itemout:-201
+key_key.inventorysorter.sort:-98
+key_key.inventorysorter.itemin:-200
 key_key.ironbackpacks.equip:35
 key_key.ironbackpacks.open:23
+key_key.moreoverlays.lightoverlay.desc:65
+key_key.moreoverlays.chunkbounds.desc:67
 key_oreexcavation.key.excavate:41
 key_oreexcavation.key.shape:47
 key_pneumaticcraft.armor.options:22
@@ -137,8 +139,6 @@ key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.toggle_focus.desc:15
-key_key.toggleLiquids:38
-key_key.toggleVisible:0
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0
@@ -168,13 +168,17 @@ key_mod.chiselsandbits.other.undo:0
 key_mod.chiselsandbits.other.redo:0
 key_mod.chiselsandbits.other.add_to_clipboard:0
 key_key.cofh.multimode:47
-key_key.refinedstorage.focusSearchBar:15
-key_key.refinedstorage.clearGridCraftingMatrix:45:CONTROL
+key_keys.techreborn.config:25
+key_key.toggleLiquids:38
+key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
-key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
-key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_invtweaks.key.sort:19
+key_keybinding.playerstorage.gui:23
+key_keybinding.playerstorage.invert:29
+key_keybinding.playerstorage.limit:38
+key_keybinding.playerstorage.highlight:35
+key_keybinding.playerstorage.delete:32:CONTROL
 key_key.control:29
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
@@ -191,7 +195,7 @@ key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
-soundCategory_master:0.0
+soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

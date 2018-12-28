@@ -7,7 +7,7 @@ import crafttweaker.item.IItemStack as IItemStack;
 //Creative tab
 //val zsTab = VanillaFactory.createCreativeTab("Score Item", <minecraft:dragon_egg>);
 //zsTab.register();
-asdf
+
 //Obsidian_Prime
 var Obsidian_Prime = VanillaFactory.createItem("obsidian_prime");
 Obsidian_Prime.maxStackSize = 1;
@@ -37,8 +37,10 @@ Happiness_Circuit.register();
 var Stalinless_Steel = VanillaFactory.createItem("stalinless_steel");
 Stalinless_Steel.register();
 
+//Biological_Iron
+var Biological_Iron = VanillaFactory.createItem("biological_iron");
+Biological_Iron.register();
+
 //korean_ramen_powder
 var korean_ramen_powder = VanillaFactory.createItem("korean_ramen_powder");
 korean_ramen_powder.register();
-
-//test.git;

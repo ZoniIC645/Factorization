@@ -1,6 +1,6 @@
 import crafttweaker.item.IItemStack as IItemStack;
 import crafttweaker.liquid.ILiquidStack as ILiquidStack;
-
+//experimental
 function infuseFluid(input as IItemStack,fluid as ILiquidStack,output as IItemStack,energyAmount as int,FluidAmount as int){
 	mods.immersiveengineering.BottlingMachine.addRecipe(output,input,fluid*FluidAmount);
 	mods.thermalexpansion.Transposer.addFillRecipe(output, input,fluid*FluidAmount, energyAmount);
@@ -26,4 +26,9 @@ mods.thaumcraft.Infusion.registerRecipe("void_happiness_circuit","",<contenttwea
 mods.pneumaticcraft.pressurechamber.addRecipe([<contenttweaker:void_happiness_circuit>,<thaumcraft:brain>*10], 5, [<contenttweaker:happiness_circuit>]);
 infuseFluid(<contenttweaker:burnt_happiness_circuit>,<liquid:happiness_fluid>,<contenttweaker:happiness_circuit>,4800,10000);
 
-//
+//biological goo
+mods.tconstruct.Alloy.addRecipe(<liquid:bio_goo> * 10, [<liquid:biomass> * 80, <liquid:if.ore_fluid_raw>.withTag({Ore: "oreIron"}) * 10]);
+infuseFluid(<minecraft:iron_ingot>,<liquid:bio_goo>,<contenttweaker:biological_iron>,4800,4000);
+
+//stalinless steel
+mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:stalinless_steel>, <ore:ingotRefinedIron> * 6, <enderio:item_alloy_ingot:9> * 2, 500, 2048, [<ore:dustSmallManganese>, <ore:ingotChrome>], "Alloying");

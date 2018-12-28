@@ -9,3 +9,6 @@ abyss_stew.register();
 
 var happiness_fluid = VanillaFactory.createFluid("happiness_fluid", Color.fromHex("42f4f4"));
 happiness_fluid.register();
+
+var bio_goo = VanillaFactory.createFluid("bio_goo", Color.fromHex("004f00"));
+bio_goo.register();

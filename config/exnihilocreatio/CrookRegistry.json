@@ -1,0 +1,67 @@
+{
+  "ore:treeLeaves": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.1,
+      "fortuneChance": 0.0
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_drone_ge",
+        "amount": 1,
+        "meta": 0
+      },
+      "chance": 0.02,
+      "fortuneChance": 0.2
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0
+      },
+      "chance": 0.01,
+      "fortuneChance": 0.01
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0
+      },
+      "chance": 0.005,
+      "fortuneChance": 0.5
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_drone_ge",
+        "amount": 1,
+        "meta": 0
+      },
+      "chance": 0.02,
+      "fortuneChance": 0.2
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0
+      },
+      "chance": 0.01,
+      "fortuneChance": 0.01
+    },
+    {
+      "stack": {
+        "name": "forestry:bee_princess_ge",
+        "amount": 1,
+        "meta": 0
+      },
+      "chance": 0.005,
+      "fortuneChance": 0.5
+    }
+  ]
+}
