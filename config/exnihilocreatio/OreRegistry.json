@@ -63,13 +63,33 @@
     "result": "techreborn:dust:5"
   },
   {
-    "name": "bauxite",
-    "color": "4c3000",
-    "result": "techreborn:dust:5"
-  },
-    {
     "name": "tungsten",
     "color": "424242",
     "result": "techreborn:ingot:15"
-  }
+  },
+   {
+    "name": "cinnabar",
+    "color": "424242",
+    "result": "techreborn:dust:11"
+  },
+   {
+    "name": "sphalerite",
+    "color": "424242",
+    "result": "techreborn:dust:50"
+  },
+  {
+    "name": "pyrite",
+    "color": "424242",
+    "result": "techreborn:dust:39"
+  },
+  {
+    "name": "galena",
+    "color": "424242",
+    "result": "techreborn:dust:23"
+  },
+  {
+    "name": "iridium",
+    "color": "424242",
+    "result": "thermalfoundation:material:135"
+  },
 ]

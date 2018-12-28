@@ -152,6 +152,21 @@
       },
       "chance": 0.01,
       "meshLevel": 4
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_tungsten:0",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_tungsten:0",
+      "chance": 0.2,
+      "meshLevel": 4
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_tungsten:0",
+      "chance": 0.1,
+      "meshLevel": 3
     }
   ],
   "minecraft:leaves2:1": [
@@ -436,6 +451,61 @@
       "drop": "exnihilocreatio:item_ore_platinum:0",
       "chance": 0.12,
       "meshLevel": 4
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_bauxite:0",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_bauxite:0",
+      "chance": 0.1,
+      "meshLevel": 4
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_bauxite:0",
+      "chance": 0.075,
+      "meshLevel": 3
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_iridium:0",
+      "chance": 0.004,
+      "meshLevel": 4
+    },
+	{
+      "drop": "ic2:misc_resource:2",
+      "chance": 0.004,
+      "meshLevel": 4
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_galena:0",
+      "chance": 0.02,
+      "meshLevel": 2
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_galena:0",
+      "chance": 0.04,
+      "meshLevel": 3
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_galena:0",
+      "chance": 0.08,
+      "meshLevel": 4
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_galena:0",
+      "chance": 0.02,
+      "meshLevel": 2
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_galena:0",
+      "chance": 0.04,
+      "meshLevel": 3
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_galena:0",
+      "chance": 0.08,
+      "meshLevel": 4
     }
   ],
   "minecraft:leaves2:0": [
@@ -683,6 +753,51 @@
       "drop": "minecraft:blaze_powder:-1",
       "chance": 0.05,
       "meshLevel": 3
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_pyrite:0",
+      "chance": 0.1,
+      "meshLevel": 2
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_pyrite:0",
+      "chance": 0.2,
+      "meshLevel": 3
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_pyrite:0",
+      "chance": 0.3,
+      "meshLevel": 4
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_sphalerite:0",
+      "chance": 0.1,
+      "meshLevel": 2
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_sphalerite:0",
+      "chance": 0.2,
+      "meshLevel": 3
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_sphalerite:0",
+      "chance": 0.3,
+      "meshLevel": 4
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_cinnabar:0",
+      "chance": 0.1,
+      "meshLevel": 2
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_cinnabar:0",
+      "chance": 0.2,
+      "meshLevel": 3
+    },
+	{
+      "drop": "exnihilocreatio:item_ore_cinnabar:0",
+      "chance": 0.3,
+      "meshLevel": 4
     }
   ],
   "forestry:humus:0": [
@@ -1132,7 +1247,7 @@
 	{
       "drop": {
         "name": "techreborn:gem",
-        "meta": 0,
+        "meta": 0
       },
       "chance": 0.02,
       "meshLevel": 3
@@ -1140,7 +1255,7 @@
 	{
       "drop": {
         "name": "techreborn:gem",
-        "meta": 1,
+        "meta": 1
       },
       "chance": 0.02,
       "meshLevel": 3
@@ -1148,7 +1263,7 @@
 	{
       "drop": {
         "name": "techreborn:gem",
-        "meta": 2,
+        "meta": 2
       },
       "chance": 0.02,
       "meshLevel": 3
@@ -1156,7 +1271,7 @@
 	{
       "drop": {
         "name": "techreborn:gem",
-        "meta": 3,
+        "meta": 3
       },
       "chance": 0.03,
       "meshLevel": 3
@@ -1164,7 +1279,7 @@
 	{
       "drop": {
         "name": "techreborn:gem",
-        "meta": 4,
+        "meta": 4
       },
       "chance": 0.03,
       "meshLevel": 3
@@ -1172,10 +1287,26 @@
 	{
       "drop": {
         "name": "astralsorcery:itemcraftingcomponent",
-        "meta": 0,
+        "meta": 0
       },
       "chance": 0.01,
       "meshLevel": 3
+    },
+	{
+      "drop": {
+        "name": "appliedenergistics2:material",
+        "meta": 0
+      },
+      "chance": 0.02,
+      "meshLevel": 1
+    },
+	{
+      "drop": {
+        "name": "appliedenergistics2:material",
+        "meta": 1
+      },
+      "chance": 0.001,
+      "meshLevel": 1
     }
   ],
   "minecraft:leaves:3": [

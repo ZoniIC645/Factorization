@@ -1,4 +1,4 @@
-7786 nodes in total
+7788 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -5061,6 +5061,7 @@ ftbutilities.claims.item.exnihilocreatio.item_mesh: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_aluminium: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_aluminum: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_ardite: ALL
+ftbutilities.claims.item.exnihilocreatio.item_ore_bauxite: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_cobalt: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_copper: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_gold: ALL
@@ -5070,6 +5071,7 @@ ftbutilities.claims.item.exnihilocreatio.item_ore_nickel: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_platinum: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_silver: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_tin: ALL
+ftbutilities.claims.item.exnihilocreatio.item_ore_tungsten: ALL
 ftbutilities.claims.item.exnihilocreatio.item_ore_uranium: ALL
 ftbutilities.claims.item.exnihilocreatio.item_pebble: ALL
 ftbutilities.claims.item.exnihilocreatio.item_seed_acacia: ALL
