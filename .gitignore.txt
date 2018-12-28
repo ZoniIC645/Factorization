@@ -1,0 +1,11 @@
+# : comments
+/astralsorcery
+/backups
+/crash-report
+/journeymap
+/local
+/logs
+/mods
+/saves
+/snapshot-server
+/woot
