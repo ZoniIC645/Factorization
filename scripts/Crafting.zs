@@ -41,3 +41,9 @@ recipes.addShaped(<contenttweaker:battery_hull>, [[null, <techreborn:cable:4>, n
 infuseFluid(<contenttweaker:battery_hull>,<liquid:alkali>,<contenttweaker:alkaline_battery>,4800,9001);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:alkali> * 1000, <liquid:fluidsodium> * 1000, [<ore:dustSmallManganese>, <ore:dustZinc>], 2048);
 infuseFluid(<contenttweaker:battery_hull>,<liquid:liquid_sunshine>,<contenttweaker:sunshine_battery>,4800,9001);
+
+//industrial_steel
+mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:bloom>,<ore:ingotRefinedIron> , null, 300, 300);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_bloom>*100,<contenttweaker:bloom>,2000);
+mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:block_bloom>, null, <liquid:molten_bloom>*1000, 10);
+recipes.addShapeless(<contenttweaker:industrial_steel>,[<immersiveengineering:tool>.noReturn(),<contenttweaker:block_bloom>]);

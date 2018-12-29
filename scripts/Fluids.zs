@@ -15,3 +15,6 @@ bio_goo.register();
 
 var alkali = VanillaFactory.createFluid("alkali", Color.fromHex("d8e7ff"));
 alkali.register();
+
+var molten_bloom = VanillaFactory.createFluid("molten_bloom",Color.fromHex("3a2c16"));
+molten_bloom.register();

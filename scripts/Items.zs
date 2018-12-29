@@ -57,3 +57,11 @@ var sunshine_battery = VanillaFactory.createItem("sunshine_battery");
 battery_hull.register();
 alkaline_battery.register();
 sunshine_battery.register();
+
+//industrial_steel
+var industrial_steel = VanillaFactory.createItem("industrial_steel");
+var bloom = VanillaFactory.createItem("bloom");
+var block_bloom = VanillaFactory.createBlock("block_bloom",<blockmaterial:anvil>);
+industrial_steel.register();
+bloom.register();
+block_bloom.register();
