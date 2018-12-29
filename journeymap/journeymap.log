@@ -1,8 +1,8 @@
-[20:59:59] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[20:59:59] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[20:59:59] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[20:59:59] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[20:59:59] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.3, built with Forge 14.23.5.2768
+[23:45:15] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[23:45:15] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[23:45:15] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[23:45:15] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[23:45:15] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.3, built with Forge 14.23.5.2768
 Forge: 14.23.5.2784
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -19,206 +19,90 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.5
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.5.3, createDeathpoints=true, showName=true, maxDistance=0, autoHideLabel=true, showStaticBeam=true, minDistance=4, boldLabel=false, textureSmall=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.5.3, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, googleMapApiDomain=.com, preferredMapType=day}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.5.3, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Circle, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=null, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[20:59:59] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
-[20:59:59] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[20:59:59] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
-[20:59:59] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.teamacronymcoders.base.modules.journeymap.JourneyMapPlugin
-[20:59:59] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
-[21:00:12] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[21:00:12] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
-[21:00:12] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
-[21:00:12] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
-[21:00:12] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
-[21:00:12] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
-[21:00:12] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
-[21:00:12] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
-[21:00:12] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
-[21:00:12] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[21:00:12] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
-[21:00:12] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 71
-[21:00:13] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed」8 count 」r1」8 avg 」r822.23」8ms」r
-[21:01:28] [Server thread/ERROR] [DataCache] ExecutionException in getPlayer: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2217)
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154)
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158)
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147)
-	at journeymap.client.data.DataCache.getPlayer(DataCache.java:303)
-	at journeymap.client.data.DataCache.getPlayer(DataCache.java:190)
-	at journeymap.client.forge.event.WorldEventHandler.onUnload(WorldEventHandler.java:30)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1699_WorldEventHandler_onUnload_Unload.invoke(.dynamic)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
-	at net.minecraftforge.common.DimensionManager.unloadWorlds(DimensionManager.java:403)
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:788)
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
-	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185)
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: java.lang.NullPointerException
-	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:770)
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4153)
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158)
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147)
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153)
-	at journeymap.client.data.DataCache.getEntityDTO(DataCache.java:441)
-	at journeymap.client.data.PlayerData.load(PlayerData.java:83)
-	at journeymap.client.data.PlayerData.load(PlayerData.java:27)
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716)
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424)
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298)
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211)
-	... 15 more
-
-[21:01:28] [Server thread/ERROR] [WorldEventHandler] Error handling WorldEvent.Unload
-java.lang.NullPointerException: null
-	at journeymap.client.forge.event.WorldEventHandler.onUnload(WorldEventHandler.java:30) [WorldEventHandler.class:1.12.2-5.5.3]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1699_WorldEventHandler_onUnload_Unload.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraftforge.common.DimensionManager.unloadWorlds(DimensionManager.java:403) [DimensionManager.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:788) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185) [chd.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[21:01:28] [Server thread/ERROR] [DataCache] ExecutionException in getPlayer: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2217)
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154)
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158)
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147)
-	at journeymap.client.data.DataCache.getPlayer(DataCache.java:303)
-	at journeymap.client.data.DataCache.getPlayer(DataCache.java:190)
-	at journeymap.client.forge.event.WorldEventHandler.onUnload(WorldEventHandler.java:30)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1699_WorldEventHandler_onUnload_Unload.invoke(.dynamic)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
-	at net.minecraftforge.common.DimensionManager.unloadWorlds(DimensionManager.java:403)
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:788)
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
-	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185)
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: java.lang.NullPointerException
-	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:770)
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4153)
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158)
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147)
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153)
-	at journeymap.client.data.DataCache.getEntityDTO(DataCache.java:441)
-	at journeymap.client.data.PlayerData.load(PlayerData.java:83)
-	at journeymap.client.data.PlayerData.load(PlayerData.java:27)
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716)
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424)
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298)
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211)
-	... 15 more
-
-[21:01:28] [Server thread/ERROR] [WorldEventHandler] Error handling WorldEvent.Unload
-java.lang.NullPointerException: null
-	at journeymap.client.forge.event.WorldEventHandler.onUnload(WorldEventHandler.java:30) [WorldEventHandler.class:1.12.2-5.5.3]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1699_WorldEventHandler_onUnload_Unload.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraftforge.common.DimensionManager.unloadWorlds(DimensionManager.java:403) [DimensionManager.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:788) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185) [chd.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[21:01:28] [Server thread/ERROR] [DataCache] ExecutionException in getPlayer: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2217)
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154)
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158)
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147)
-	at journeymap.client.data.DataCache.getPlayer(DataCache.java:303)
-	at journeymap.client.data.DataCache.getPlayer(DataCache.java:190)
-	at journeymap.client.forge.event.WorldEventHandler.onUnload(WorldEventHandler.java:30)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1699_WorldEventHandler_onUnload_Unload.invoke(.dynamic)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
-	at net.minecraftforge.common.DimensionManager.unloadWorlds(DimensionManager.java:403)
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:788)
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
-	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185)
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: java.lang.NullPointerException
-	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:770)
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4153)
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158)
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147)
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153)
-	at journeymap.client.data.DataCache.getEntityDTO(DataCache.java:441)
-	at journeymap.client.data.PlayerData.load(PlayerData.java:83)
-	at journeymap.client.data.PlayerData.load(PlayerData.java:27)
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716)
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424)
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298)
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211)
-	... 15 more
-
-[21:01:28] [Server thread/ERROR] [WorldEventHandler] Error handling WorldEvent.Unload
-java.lang.NullPointerException: null
-	at journeymap.client.forge.event.WorldEventHandler.onUnload(WorldEventHandler.java:30) [WorldEventHandler.class:1.12.2-5.5.3]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1699_WorldEventHandler_onUnload_Unload.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraftforge.common.DimensionManager.unloadWorlds(DimensionManager.java:403) [DimensionManager.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:788) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185) [chd.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[21:01:28] [Server thread/ERROR] [DataCache] ExecutionException in getPlayer: com.google.common.util.concurrent.UncheckedExecutionException: java.lang.NullPointerException
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2217)
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4154)
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158)
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147)
-	at journeymap.client.data.DataCache.getPlayer(DataCache.java:303)
-	at journeymap.client.data.DataCache.getPlayer(DataCache.java:190)
-	at journeymap.client.forge.event.WorldEventHandler.onUnload(WorldEventHandler.java:30)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1699_WorldEventHandler_onUnload_Unload.invoke(.dynamic)
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
-	at net.minecraftforge.common.DimensionManager.unloadWorlds(DimensionManager.java:403)
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:788)
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
-	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185)
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
-	at java.lang.Thread.run(Unknown Source)
-Caused by: java.lang.NullPointerException
-	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:770)
-	at com.google.common.cache.LocalCache.get(LocalCache.java:4153)
-	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158)
-	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147)
-	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153)
-	at journeymap.client.data.DataCache.getEntityDTO(DataCache.java:441)
-	at journeymap.client.data.PlayerData.load(PlayerData.java:83)
-	at journeymap.client.data.PlayerData.load(PlayerData.java:27)
-	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716)
-	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424)
-	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298)
-	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211)
-	... 15 more
-
-[21:01:28] [Server thread/ERROR] [WorldEventHandler] Error handling WorldEvent.Unload
-java.lang.NullPointerException: null
-	at journeymap.client.forge.event.WorldEventHandler.onUnload(WorldEventHandler.java:30) [WorldEventHandler.class:1.12.2-5.5.3]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1699_WorldEventHandler_onUnload_Unload.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraftforge.common.DimensionManager.unloadWorlds(DimensionManager.java:403) [DimensionManager.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:788) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185) [chd.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[21:01:36] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for bibliocraft
-[21:01:37] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[21:01:37] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
-[21:01:37] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
-[21:01:37] [Client thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\user\Documents\Curse\Minecraft\Instances\Auto\journeymap\data\sp\New World\waypoints
-[21:01:37] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\user\Documents\Curse\Minecraft\Instances\Auto\journeymap\data\sp\New World\DIM0. Memory: 4531MB total, 1757MB free 
-[21:01:37] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
-[21:03:53] [Client thread/INFO] [StateTickHandler] AngelicLayer died at BlockPos{x=777, y=4, z=-241}. Deathpoints enabled: true. Deathpoint created: true
-[21:09:00] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\user\Documents\Curse\Minecraft\Instances\Auto\journeymap\data\sp\New World\DIM0
+[23:45:15] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[23:45:15] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[23:45:15] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
+[23:45:15] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.teamacronymcoders.base.modules.journeymap.JourneyMapPlugin
+[23:45:15] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[23:45:29] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[23:45:30] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 71
+[23:45:31] [JM-VersionCheck-1/ERROR] [VersionCheck$1] Could not check version URL
+javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192) ~[?:1.8.0_51]
+	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1949) ~[?:1.8.0_51]
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:302) ~[?:1.8.0_51]
+	at sun.security.ssl.Handshaker.fatalSE(Handshaker.java:296) ~[?:1.8.0_51]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1497) ~[?:1.8.0_51]
+	at sun.security.ssl.ClientHandshaker.processMessage(ClientHandshaker.java:212) ~[?:1.8.0_51]
+	at sun.security.ssl.Handshaker.processLoop(Handshaker.java:979) ~[?:1.8.0_51]
+	at sun.security.ssl.Handshaker.process_record(Handshaker.java:914) ~[?:1.8.0_51]
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1062) ~[?:1.8.0_51]
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375) ~[?:1.8.0_51]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403) ~[?:1.8.0_51]
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387) ~[?:1.8.0_51]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:275) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:254) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:106) ~[httpclient-4.3.3.jar:4.3.3]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57) ~[httpclient-4.3.3.jar:4.3.3]
+	at journeymap.common.version.VersionCheck$1.run(VersionCheck.java:131) [VersionCheck$1.class:1.12.2-5.5.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_51]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_51]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_51]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_51]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_51]
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:387) ~[?:1.8.0_51]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292) ~[?:1.8.0_51]
+	at sun.security.validator.Validator.validate(Validator.java:260) ~[?:1.8.0_51]
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324) ~[?:1.8.0_51]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229) ~[?:1.8.0_51]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_51]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1479) ~[?:1.8.0_51]
+	... 26 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:145) ~[?:1.8.0_51]
+	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:131) ~[?:1.8.0_51]
+	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280) ~[?:1.8.0_51]
+	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:382) ~[?:1.8.0_51]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:292) ~[?:1.8.0_51]
+	at sun.security.validator.Validator.validate(Validator.java:260) ~[?:1.8.0_51]
+	at sun.security.ssl.X509TrustManagerImpl.validate(X509TrustManagerImpl.java:324) ~[?:1.8.0_51]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:229) ~[?:1.8.0_51]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:124) ~[?:1.8.0_51]
+	at sun.security.ssl.ClientHandshaker.serverCertificate(ClientHandshaker.java:1479) ~[?:1.8.0_51]
+	... 26 more
+[23:48:20] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[23:48:20] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[23:48:20] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[23:48:21] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\micha_000\Documents\Curse\Minecraft\Instances\Auto\journeymap\data\mp\Minecraft~Server\waypoints
+[23:48:21] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\micha_000\Documents\Curse\Minecraft\Instances\Auto\journeymap\data\mp\Minecraft~Server\DIM0. Memory: 4192MB total, 1645MB free 
+[23:48:22] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for bibliocraft
+[23:48:29] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[23:48:39] [Client thread/INFO] [StateTickHandler] ZoNiIc645 died at BlockPos{x=773, y=-330, z=-254}. Deathpoints enabled: true. Deathpoint created: true
+[23:50:16] [Client thread/INFO] [StateTickHandler] ZoNiIc645 died at BlockPos{x=771, y=-332, z=-256}. Deathpoints enabled: true. Deathpoint created: true
+[23:50:44] [Client thread/INFO] [StateTickHandler] ZoNiIc645 died at BlockPos{x=772, y=-6, z=-257}. Deathpoints enabled: true. Deathpoint created: true
+[23:51:42] [Client thread/INFO] [StateTickHandler] ZoNiIc645 died at BlockPos{x=770, y=-304, z=-254}. Deathpoints enabled: true. Deathpoint created: true
+[00:13:01] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\micha_000\Documents\Curse\Minecraft\Instances\Auto\journeymap\data\mp\Minecraft~Server\DIM0
+[00:14:28] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[00:14:28] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[00:14:28] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[00:14:28] [Client thread/INFO] [WaypointStore] Loaded 4 waypoints from C:\Users\micha_000\Documents\Curse\Minecraft\Instances\Auto\journeymap\data\mp\Minecraft~Server\waypoints
+[00:14:28] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\micha_000\Documents\Curse\Minecraft\Instances\Auto\journeymap\data\mp\Minecraft~Server\DIM0. Memory: 4029MB total, 1369MB free 
+[00:14:35] [Client thread/INFO] [StateTickHandler] ZoNiIc645 died at BlockPos{x=775, y=-305, z=-254}. Deathpoints enabled: true. Deathpoint created: true
+[00:24:27] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\micha_000\Documents\Curse\Minecraft\Instances\Auto\journeymap\data\mp\Minecraft~Server\DIM0
+[00:24:59] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[00:24:59] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): splashViewed=null
+[00:24:59] [Client thread/INFO] [TopoRenderer] Loading journeymap.topo.config
+[00:24:59] [Client thread/INFO] [WaypointStore] Loaded 5 waypoints from C:\Users\micha_000\Documents\Curse\Minecraft\Instances\Auto\journeymap\data\mp\Minecraft~Server\waypoints
+[00:24:59] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\micha_000\Documents\Curse\Minecraft\Instances\Auto\journeymap\data\mp\Minecraft~Server\DIM0. Memory: 4030MB total, 1330MB free 
+[00:25:07] [Client thread/INFO] [StateTickHandler] ZoNiIc645 died at BlockPos{x=773, y=-341, z=-246}. Deathpoints enabled: true. Deathpoint created: true
+[01:54:15] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\micha_000\Documents\Curse\Minecraft\Instances\Auto\journeymap\data\mp\Minecraft~Server\DIM0
