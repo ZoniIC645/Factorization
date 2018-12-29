@@ -1,0 +1,14 @@
+logs/
+crash-reports/
+journeymap/
+local/
+resoursepacks/
+saves/
+.curseclient.curseclient
+minecraftinstance.json
+usercache.json
+usernamecache.json
+.ReAuth.cfg
+crafttweaker.txt
+options.txt
+severs.dat
