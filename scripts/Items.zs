@@ -65,7 +65,3 @@ var block_bloom = VanillaFactory.createBlock("block_bloom",<blockmaterial:anvil>
 industrial_steel.register();
 bloom.register();
 block_bloom.register();
-
-// manastone
-var manastone = VanillaFactory.createBlock("manastone",<blockmaterial:anvil>);
-manastone.register();
