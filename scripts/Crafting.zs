@@ -47,3 +47,8 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:bloom>,<ore:ingot
 mods.tconstruct.Melting.addRecipe(<liquid:molten_bloom>*100,<contenttweaker:bloom>,2000);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:block_bloom>, null, <liquid:molten_bloom>*1000, 10);
 recipes.addShapeless(<contenttweaker:industrial_steel>,[<immersiveengineering:tool>.noReturn(),<contenttweaker:block_bloom>]);
+
+//manastone
+mods.thaumcraft.Infusion.registerRecipe("manafluidgen","",<ic2:fluid_cell>.withTag({Fluid: {FluidName: "mana", Amount: 1000}}), 15,[<aspect:praecantatio>*128],<ic2:fluid_cell>.withTag({Fluid: {FluidName: "liquid_death", Amount: 125}}), [<minecraft:shulker_shell>, <thermalfoundation:material:1025>, <thermalfoundation:material:1024>, <thermalfoundation:material:1026>, <thermalfoundation:material:1027>]);
+<ic2:fluid_cell>.withTag({Fluid: {FluidName: "liquid_death", Amount: 125}});
+infuseFluid(<ic2:resource:11>,<liquid:mana>,<contenttweaker:manastone>,4800,100);
