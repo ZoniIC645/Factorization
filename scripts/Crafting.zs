@@ -52,7 +52,7 @@ recipes.addShapeless(<contenttweaker:industrial_steel>,[<immersiveengineering:to
 mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:chrome>,<ore:oreRuby>*5,null,300,300);
 
 //hots
-recipes.addShaped(<contenttweaker:hots_used>, [[<forge:bucketfilled>, <ic2:crafting:6>, <forge:bucketfilled>],[<ic2:crafting:6>, <enderio:block_transceiver>, <ic2:crafting:6>], [<forge:bucketfilled>, <ic2:crafting:6>, <forge:bucketfilled>]]);
+recipes.addShaped(<contenttweaker:hots_used>, [[<forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <ic2:crafting:6>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000})],[<ic2:crafting:6>, <enderio:block_transceiver>, <ic2:crafting:6>], [<forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <ic2:crafting:6>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000})]]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:hots>, <contenttweaker:hots_used>,<contenttweaker:burnt_happiness_circuit>, 3000, 480, [<contenttweaker:happiness_circuit>,<thaumcraft:causality_collapser>]);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:block_bloom>, null, <liquid:molten_bloom>*1000, 10);
 recipes.addShapeless(<contenttweaker:industrial_steel>,[<immersiveengineering:tool>.noReturn(),<contenttweaker:block_bloom>]);
