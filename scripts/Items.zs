@@ -66,6 +66,16 @@ industrial_steel.register();
 bloom.register();
 block_bloom.register();
 
+//chrome
+var chrome = VanillaFactory.createItem("chrome");
+chrome.register();
+
+//hots
+var hots = VanillaFactory.createItem("hots");
+var hots_used = VanillaFactory.createItem("hots_used");
+hots.register();
+hots_used.register();
+
 // manastone
 var manastone = VanillaFactory.createBlock("manastone",<blockmaterial:anvil>);
 manastone.register();
