@@ -66,6 +66,7 @@
   "ctgui": "1.0.0",
   "woot": "1.12.2-1.4.8",
   "jei": "4.14.3.242",
+  "voidislandcontrol": "1.4.3",
   "bibliocraft": "2.4.5",
   "thermalfoundation": "2.6.1",
   "bdlib": "1.14.3.12",
