@@ -79,3 +79,9 @@ hots_used.register();
 // manastone
 var manastone = VanillaFactory.createBlock("manastone",<blockmaterial:anvil>);
 manastone.register();
+
+//Beeholders_eye
+var tainted_bee = VanillaFactory.createItem("tainted_bee");
+var beeholders_eye = VanillaFactory.createItem("beeholders_eye");
+tainted_bee.register();
+beeholders_eye.register();
