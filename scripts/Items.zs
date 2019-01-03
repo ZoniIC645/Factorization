@@ -78,7 +78,11 @@ hots_used.register();
 
 // manastone
 var manastone = VanillaFactory.createBlock("manastone",<blockmaterial:anvil>);
+var waterflame = VanillaFactory.createItem("waterflame");
+var teraburning = VanillaFactory.createItem("teraburning");
 manastone.register();
+waterflame.register();
+teraburning.register();
 
 //Beeholders_eye
 var tainted_bee = VanillaFactory.createItem("tainted_bee");

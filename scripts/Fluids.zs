@@ -4,7 +4,6 @@ import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Color;
 
 var abyss_stew = VanillaFactory.createFluid("abyss_stew", Color.fromHex("5f6b5c"));
-abyss_stew.fillSound = <soundevent:block.anvil.place>;
 abyss_stew.register();
 
 var happiness_fluid = VanillaFactory.createFluid("happiness_fluid", Color.fromHex("42f4f4"));
@@ -18,3 +17,6 @@ alkali.register();
 
 var molten_bloom = VanillaFactory.createFluid("molten_bloom",Color.fromHex("3a2c16"));
 molten_bloom.register();
+
+var overheated_mana_steam = VanillaFactory.createFluid("overheated_mana_steam",Color.fromHex("2641a5"));
+overheated_mana_steam.register();
