@@ -47,16 +47,14 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:bloom>,<ore:ingot
 mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:bloom>, <ore:ingotRefinedIron>, 300);
 mods.tconstruct.Melting.addRecipe(<liquid:molten_bloom>*100,<contenttweaker:bloom>,2000);
 mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:block_bloom>, null, <liquid:molten_bloom>, 1000);
-recipes.addShapeless(<contenttweaker:industrial_steel>,[<immersiveengineering:tool>.noReturn(),<contenttweaker:block_bloom>]);
+recipes.addShapeless(<contenttweaker:industrial_steel>,[<immersiveengineering:tool>,<contenttweaker:block_bloom>]);
 
 //chrome
 mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:chrome>,<ore:oreRuby>*5,null,300,300);
 
 //hots
-recipes.addShaped(<contenttweaker:hots_used>, [[<forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <ic2:crafting:6>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000})],[<ic2:crafting:6>, <enderio:block_transceiver>, <ic2:crafting:6>], [<forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <ic2:crafting:6>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000})]]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:hots>, <contenttweaker:hots_used>,<contenttweaker:burnt_happiness_circuit>, 3000, 480, [<contenttweaker:happiness_circuit>,<thaumcraft:causality_collapser>]);
-mods.tconstruct.Casting.addBasinRecipe(<contenttweaker:block_bloom>, null, <liquid:molten_bloom>*1000, 10);
-recipes.addShapeless(<contenttweaker:industrial_steel>,[<immersiveengineering:tool>.noReturn(),<contenttweaker:block_bloom>]);
+recipes.addShaped(<contenttweaker:hots_used>, [[<forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <ic2:crafting:6>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000})],[<ic2:crafting:6>, <minecraft:ender_pearl>, <ic2:crafting:6>], [<forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <ic2:crafting:6>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000})]]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:hots>, <contenttweaker:hots_used>,<contenttweaker:burnt_happiness_circuit>, 3000, 480, [<contenttweaker:happiness_circuit>,<minecraft:clock>]);
 
 //manastone
 mods.immersiveengineering.Mixer.addRecipe(<liquid:overheated_mana_steam>*2000,<liquid:ic2superheated_steam>*2000,[<minecraft:shulker_shell>],4800);
@@ -68,3 +66,10 @@ infuseFluid(<ic2:resource:11>,<liquid:mana>,<contenttweaker:manastone>,4800,500)
 //Beeholder
 mods.thaumcraft.Crucible.registerRecipe("tainted_bee","",<contenttweaker:tainted_bee>,<forestry:bee_princess_ge>,[<aspect:vitium>*64]);
 mods.pneumaticcraft.assembly.addLaserRecipe(<contenttweaker:tainted_bee>,<contenttweaker:beeholders_eye>);
+
+//bluebird
+mods.thaumcraft.Infusion.registerRecipe("bluebird","",<contenttweaker:bluebird>,20,[<aspect:ignis>*10],<minecraft:feather>,[<minecraft:lapis_block>,<minecraft:cooked_chicken>,<minecraft:rotten_flesh>,<minecraft:leather>,<thaumcraft:brain>]);
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:bluebird>*3, <contenttweaker:bluebird>, <contenttweaker:happiness_circuit>, 9600, <contenttweaker:burnt_happiness_circuit>, 100);
+
+//little prince
+

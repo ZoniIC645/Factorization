@@ -89,3 +89,15 @@ var tainted_bee = VanillaFactory.createItem("tainted_bee");
 var beeholders_eye = VanillaFactory.createItem("beeholders_eye");
 tainted_bee.register();
 beeholders_eye.register();
+
+//bluebird
+var bluebird = VanillaFactory.createItem("bluebird");	
+bluebird.register();
+
+//little prince
+var hat = VanillaFactory.createItem("hat");
+var elephant = VanillaFactory.createItem("elephant");
+var boa = VanillaFactory.createItem("boa");
+hat.register();
+elephant.register();
+boa.register();

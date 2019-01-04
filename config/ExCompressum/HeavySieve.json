@@ -11,7 +11,10 @@
     "excompressum:compressed_soul_sand": true,
     "excompressum:compressed_dust": true,
     "excompressum:compressed_nether_gravel": true,
-    "excompressum:compressed_ender_gravel": true
+    "excompressum:compressed_ender_gravel": true,
+    "ExtraUtils2:CompressedGravel": true,
+    "ExtraUtils2:CompressedSand": true,
+    "ExtraUtils2:CompressedDirt": true
   },
   "custom": {
     "__comment": "You can define additional blocks to sift in the Heavy Sieve here. Use * as a wildcard for metadata. Ure ore: prefix in name to query the Ore Dictionary. Mesh Level is only used for Adscensio.",
