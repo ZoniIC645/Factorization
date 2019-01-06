@@ -94,6 +94,10 @@ beeholders_eye.register();
 var bluebird = VanillaFactory.createItem("bluebird");	
 bluebird.register();
 
+//twitter
+var twitter = VanillaFactory.createItem("twitter");
+twitter.register();
+
 //little prince
 var hat = VanillaFactory.createItem("hat");
 var elephant = VanillaFactory.createItem("elephant");
@@ -101,3 +105,7 @@ var boa = VanillaFactory.createItem("boa");
 hat.register();
 elephant.register();
 boa.register();
+
+//sprucians
+var sprucians = VanillaFactory.createItem("sprucians");
+sprucians.register();
