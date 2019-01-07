@@ -96,7 +96,9 @@ bluebird.register();
 
 //twitter
 var twitter = VanillaFactory.createItem("twitter");
+var offline_twitter = VanillaFactory.createItem("offline_twitter");
 twitter.register();
+offline_twitter.register();
 
 //little prince
 var hat = VanillaFactory.createItem("hat");

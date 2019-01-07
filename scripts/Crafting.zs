@@ -69,9 +69,11 @@ mods.pneumaticcraft.assembly.addLaserRecipe(<contenttweaker:tainted_bee>,<conten
 
 //bluebird
 mods.thaumcraft.Infusion.registerRecipe("bluebird","",<contenttweaker:bluebird>,20,[<aspect:ignis>*10],<minecraft:feather>,[<minecraft:lapis_block>,<minecraft:cooked_chicken>,<minecraft:rotten_flesh>,<minecraft:leather>,<thaumcraft:brain>]);
-mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:bluebird>*3, <contenttweaker:bluebird>, <contenttweaker:happiness_circuit>, 9600, <contenttweaker:burnt_happiness_circuit>, 1);
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:bluebird>*3, <contenttweaker:bluebird>, <contenttweaker:happiness_circuit>, 9600, <contenttweaker:burnt_happiness_circuit>, 100);
 
 //twitter
+mods.techreborn.chemicalReactorRecipe.addRecipe(<contenttweaker:offline_twitter>, <contenttweaker:bluebird>, <ore:ingotDemonicMetal>, 40, 128);
+mods.pneumaticcraft.pressurechamber.addRecipe([<contenttweaker:offline_twitter> * 8,<extrautils2:terraformer:1>], 3.0, [<contenttweaker:twitter>]);
 
 //little prince
 
