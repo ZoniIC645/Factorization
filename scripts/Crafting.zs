@@ -34,7 +34,7 @@ infuseFluid(<minecraft:iron_ingot>,<liquid:bio_goo>,<contenttweaker:biological_i
 mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:stalinless_steel>, <ore:ingotRefinedIron> * 6, <enderio:item_alloy_ingot:9> * 2, 500, 2048, [<ore:dustSmallManganese>, <ore:ingotChrome>], "Alloying");
 
 //essence of greed
-infuseFluid(<enderio:item_material:17>,<liquid:xpjuice>,<contenttweaker:greed_crystal>,4800,3390);
+infuseFluid(<enderio:item_material:17>,<liquid:xpjuice>,<contenttweaker:greed_crystal>,4800,1337);
 
 //batteries
 recipes.addShaped(<contenttweaker:battery_hull>, [[null, <techreborn:cable:4>, null],[<ore:plateLumium>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbonfiber", Amount: 1000}}).onlyWithTag({Fluid: {FluidName: "fluidcarbonfiber", Amount: 1000}}), <ore:plateLumium>], [<ore:plateLumium>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbonfiber", Amount: 1000}}).onlyWithTag({Fluid: {FluidName: "fluidcarbonfiber", Amount: 1000}}), <ore:plateLumium>]]);
@@ -43,6 +43,7 @@ mods.immersiveengineering.Mixer.addRecipe(<liquid:alkali> * 1000, <liquid:fluids
 infuseFluid(<contenttweaker:battery_hull>,<liquid:liquid_sunshine>,<contenttweaker:sunshine_battery>,4800,9001);
 
 //industrial_steel
+mods.tconstruct.Fuel.registerFuel(<liquid:pyrotheum> * 75, 300);
 mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:bloom>,<ore:ingotRefinedIron> , null, 300, 300);
 mods.immersiveengineering.BlastFurnace.addRecipe(<contenttweaker:bloom>, <ore:ingotRefinedIron>, 300);
 mods.tconstruct.Melting.addRecipe(<liquid:molten_bloom>*100,<contenttweaker:bloom>,2000);
