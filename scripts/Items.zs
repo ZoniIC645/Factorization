@@ -104,9 +104,15 @@ offline_twitter.register();
 var hat = VanillaFactory.createItem("hat");
 var elephant = VanillaFactory.createItem("elephant");
 var boa = VanillaFactory.createItem("boa");
+var snake_slough = VanillaFactory.createItem("snake_slough");
 hat.register();
 elephant.register();
 boa.register();
+snake_slough.register();
+
+//python
+var python = VanillaFactory.createItem("python");
+python.register
 
 //sprucians
 var sprucians = VanillaFactory.createItem("sprucians");

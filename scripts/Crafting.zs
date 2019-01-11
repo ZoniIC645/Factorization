@@ -76,7 +76,15 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:bluebird>*3, <c
 mods.techreborn.chemicalReactorRecipe.addRecipe(<contenttweaker:offline_twitter>, <contenttweaker:bluebird>, <ore:ingotDemonicMetal>, 40, 128);
 mods.pneumaticcraft.pressurechamber.addRecipe([<contenttweaker:offline_twitter> * 8,<extrautils2:terraformer:1>], 3.0, [<contenttweaker:twitter>]);
 
-//little prince
+//little prince 
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:hat>,<minecraft:leather_helmet> , <contenttweaker:happiness_circuit>, 9600, <contenttweaker:burnt_happiness_circuit>, 100);
+	//hat -> boa (2way)
+	mods.techreborn.extractor.addRecipe(<contenttweaker:boa>, <contenttweaker:hat>, 300, 100);
+	mods.thermalexpansion.Centrifuge.addRecipe([<contenttweaker:boa>], <contenttweaker:hat>, <liquid:witchwater>*10, 30000);
+mods.thermalexpansion.Centrifuge.addRecipe([<contenttweaker:snake_slough>,<contenttweaker:elephant>], <contenttweaker:boa>, <liquid:blood>*30, 30000);
+
+//python
+recipes.addShaped([[<contenttweaker:snake_slough>,<contenttweaker:snake_slough>,<contenttweaker:snake_slough>],[<contenttweaker:snake_slough>,<immersiveengineering:material:27>,<contenttweaker:snake_slough>][<contenttweaker:snake_slough>,<contenttweaker:snake_slough>,<contenttweaker:snake_slough>]]);
 
 //sprucians
 
