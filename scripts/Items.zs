@@ -112,7 +112,7 @@ snake_slough.register();
 
 //python
 var python = VanillaFactory.createItem("python");
-python.register
+python.register();
 
 //sprucians
 var sprucians = VanillaFactory.createItem("sprucians");

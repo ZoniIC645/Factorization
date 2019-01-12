@@ -84,7 +84,8 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:hat>,<minecraft
 mods.thermalexpansion.Centrifuge.addRecipe([<contenttweaker:snake_slough>,<contenttweaker:elephant>], <contenttweaker:boa>, <liquid:blood>*30, 30000);
 
 //python
-recipes.addShaped([[<contenttweaker:snake_slough>,<contenttweaker:snake_slough>,<contenttweaker:snake_slough>],[<contenttweaker:snake_slough>,<immersiveengineering:material:27>,<contenttweaker:snake_slough>][<contenttweaker:snake_slough>,<contenttweaker:snake_slough>,<contenttweaker:snake_slough>]]);
+recipes.addShaped(<contenttweaker:python>,[[<contenttweaker:snake_slough>, <contenttweaker:snake_slough>, <contenttweaker:snake_slough>],[<contenttweaker:snake_slough>, <immersiveengineering:material:27>, <contenttweaker:snake_slough>], [<contenttweaker:snake_slough>, <contenttweaker:snake_slough>, <contenttweaker:snake_slough>]]);
 
 //sprucians
+recipes.addShaped(<contenttweaker:sprucians>, [[<minecraft:planks:1>*16, <appliedenergistics2:facade>, <minecraft:planks:1>*16],[<appliedenergistics2:facade>, <minecraft:sign>*3, <appliedenergistics2:facade>], [<bibliocraft:potionshelf:1>, <appliedenergistics2:facade>, <bibliocraft:potionshelf:1>]]);
 
