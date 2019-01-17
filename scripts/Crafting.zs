@@ -55,7 +55,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:chrome>,<ore:oreR
 
 //hots
 recipes.addShaped(<contenttweaker:hots_used>, [[<forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <ic2:crafting:6>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000})],[<ic2:crafting:6>, <minecraft:ender_pearl>, <ic2:crafting:6>], [<forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <ic2:crafting:6>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000})]]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:hots>, <contenttweaker:hots_used>,<contenttweaker:burnt_happiness_circuit>, 3000, 480, [<contenttweaker:happiness_circuit>,<minecraft:clock>]);
+mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:hots>, <contenttweaker:hots_used>,<contenttweaker:burnt_happiness_circuit>, 3000, 480, [<contenttweaker:happiness_circuit>,<minecraft:clock>,<minecraft:snowball>]);
 
 //manastone
 mods.immersiveengineering.Mixer.addRecipe(<liquid:overheated_mana_steam>*2000,<liquid:ic2superheated_steam>*2000,[<minecraft:shulker_shell>],4800);
