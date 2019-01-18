@@ -88,7 +88,7 @@
   "exnihilocreatio": "1.12-0.3.2",
   "immersivepetroleum": "1.1.9",
   "forge": "14.23.5.2784",
-  "ftbutilities": "5.3.0.74",
+  "ftbutilities": "5.3.0.75",
   "thaumadditions": "11r",
   "ironchest": "1.12.2-7.0.54.838",
   "minecraft": "1.12.2",
