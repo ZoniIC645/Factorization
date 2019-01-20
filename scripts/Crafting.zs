@@ -40,7 +40,7 @@ infuseFluid(<enderio:item_material:17>,<liquid:xpjuice>,<contenttweaker:greed_cr
 recipes.addShaped(<contenttweaker:battery_hull>, [[null, <techreborn:cable:4>, null],[<ore:plateLumium>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbonfiber", Amount: 1000}}).onlyWithTag({Fluid: {FluidName: "fluidcarbonfiber", Amount: 1000}}), <ore:plateLumium>], [<ore:plateLumium>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcarbonfiber", Amount: 1000}}).onlyWithTag({Fluid: {FluidName: "fluidcarbonfiber", Amount: 1000}}), <ore:plateLumium>]]);
 infuseFluid(<contenttweaker:battery_hull>,<liquid:alkali>,<contenttweaker:alkaline_battery>,4800,4001);
 mods.immersiveengineering.Mixer.addRecipe(<liquid:alkali> * 1000, <liquid:fluidsodium> * 1000, [<ore:dustSmallManganese>, <ore:dustZinc>], 2048);
-infuseFluid(<contenttweaker:battery_hull>,<liquid:liquid_sunshine>,<contenttweaker:sunshine_battery>,4800,9001);
+infuseFluid(<contenttweaker:battery_hull>,<liquid:liquid_sunshine>,<contenttweaker:sunshine_battery>,4800,4001);
 
 //industrial_steel
 mods.tconstruct.Fuel.registerFuel(<liquid:pyrotheum> * 75, 300);
@@ -54,8 +54,8 @@ recipes.addShapeless(<contenttweaker:industrial_steel>,[<immersiveengineering:to
 mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:chrome>,<ore:oreRuby>*5,null,300,300);
 
 //hots
-recipes.addShaped(<contenttweaker:hots_used>, [[<forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <ic2:crafting:6>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000})],[<ic2:crafting:6>, <minecraft:ender_pearl>, <ic2:crafting:6>], [<forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000}), <ic2:crafting:6>, <forge:bucketfilled>.withTag({FluidName: "liquid_death", Amount: 1000})]]);
-mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:hots>, <contenttweaker:hots_used>,<contenttweaker:burnt_happiness_circuit>, 3000, 480, [<contenttweaker:happiness_circuit>,<minecraft:clock>,<minecraft:snowball>]);
+infuseFluid(<minecraft:ender_pearl>,<liquid:liquid_death>,<contenttweaker:hots_used>,4800,500);
+mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:hots>, <contenttweaker:hots_used>,<contenttweaker:burnt_happiness_circuit>, 3000, 480, [<contenttweaker:happiness_circuit>,<ic2:crafting:6>*4]);
 
 //manastone
 mods.immersiveengineering.Mixer.addRecipe(<liquid:overheated_mana_steam>*2000,<liquid:ic2superheated_steam>*2000,[<minecraft:shulker_shell>],4800);

@@ -5,9 +5,9 @@
         {
             "image" : "cmm:textures/logo_white.png",
             "posX" : -105,
-            "posY" : -10,
-            "width" : 350,
-            "height" : 262,
+            "posY" : 10,
+            "width" : 320,
+            "height" : 240,
             "alignment" : "top_center"
         },
 		"side":
@@ -27,7 +27,7 @@
         {
             "text" : "menu.singleplayer",
             "posX" : -475,
-            "posY" : -100,
+            "posY" : -120,
             "width" : 110,
             "height" : 40,
 			"imageWidth" : 80,
@@ -45,7 +45,7 @@
         {
             "text" : "menu.multiplayer",
             "posX" : -475,
-            "posY" : -55,
+            "posY" : -75,
             "width" : 110,
             "height" : 40,
 			"imageWidth" : 80,
@@ -63,7 +63,7 @@
         {
             "text" : "fml.menu.mods",
             "posX" : -475,
-            "posY" : 35,
+            "posY" : 15,
             "width" : 110,
             "height" : 40,
 			"imageWidth" : 80,
@@ -81,7 +81,7 @@
         {
             "text" : "menu.options",
             "posX" : -475,
-            "posY" : -10,
+            "posY" : -30,
             "width" : 110,
             "height" : 40,
 			"imageWidth" : 80,
@@ -99,7 +99,7 @@
         {
             "text" : "menu.quit",
             "posX" : -475,
-            "posY" : 80,
+            "posY" : 60,
             "width" : 110,
             "height" : 40,
 			"imageWidth" : 80,
@@ -109,6 +109,38 @@
             "action" :
             {
                 "type" : "quit"
+            }
+        },
+		"discord":
+        {
+			"text" : "",
+            "texture" : "cmm:textures/menu/button_discord.png",
+			"posX" : -235,
+            "posY" : 170,
+            "width" : 60,
+            "height" : 17,
+			"imageWidth" : 120,
+			"imageHeight" : 33,
+			"action" :
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/cQm85Y"
+            }
+        },
+		"website":
+        {
+			"text" : "",
+            "texture" : "cmm:textures/menu/button_website.png",
+			"posX" : -185,
+            "posY" : 170,
+            "width" : 60,
+            "height" : 17,
+			"imageWidth" : 120,
+			"imageHeight" : 33,
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "http://sprucians.com"
             }
         }
     },

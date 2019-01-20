@@ -126,6 +126,6 @@
   "tinkersjei": "1.0",
   "practicallogistics2": "3.0.8",
   "chiselsandbits": "14.29",
-  "forestry": "5.8.2.380",
+  "forestry": "5.8.2.382",
   "base": "3.11.0"
 }

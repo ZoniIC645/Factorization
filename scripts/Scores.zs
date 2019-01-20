@@ -12,3 +12,4 @@ mods.ScoreBoard.addItemScore(<contenttweaker:industrial_steel>,200);
 
 //fluid
 mods.ScoreBoard.addFluidScore(<liquid:happiness_fluid>,1);
+mods.ScoreBoard.addFluidScore(<liquid:liquid_death>,0.6);	
