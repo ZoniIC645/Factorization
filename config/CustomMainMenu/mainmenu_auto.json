@@ -1,0 +1,124 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "cmm:textures/logo_white.png",
+            "posX" : -105,
+            "posY" : -10,
+            "width" : 350,
+            "height" : 262,
+            "alignment" : "top_center"
+        },
+		"side":
+		{
+			"image" : "cmm:textures/metal.png",
+            "posX" : -240,
+            "posY" : 0,
+            "width" : 130,
+            "height" : 268,
+            "alignment" : "top_center"
+		}
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -475,
+            "posY" : -100,
+            "width" : 110,
+            "height" : 40,
+			"imageWidth" : 80,
+			"imageHeight" : 33,
+            "texture" : "cmm:textures/menu/button.png",
+            "alignment" : "right_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+       
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -475,
+            "posY" : -55,
+            "width" : 110,
+            "height" : 40,
+			"imageWidth" : 80,
+			"imageHeight" : 33,
+            "texture" : "cmm:textures/menu/button.png",
+            "alignment" : "right_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+       
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -475,
+            "posY" : 35,
+            "width" : 110,
+            "height" : 40,
+			"imageWidth" : 80,
+			"imageHeight" : 33,
+            "texture" : "cmm:textures/menu/button.png",
+            "alignment" : "right_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+ 
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -475,
+            "posY" : -10,
+            "width" : 110,
+            "height" : 40,
+			"imageWidth" : 80,
+			"imageHeight" : 33,
+            "texture" : "cmm:textures/menu/button.png",
+            "alignment" : "right_center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+       
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -475,
+            "posY" : 80,
+            "width" : 110,
+            "height" : 40,
+			"imageWidth" : 80,
+			"imageHeight" : 33,
+            "texture" : "cmm:textures/menu/button.png",
+            "alignment" : "right_center",
+            "action" :
+            {
+                "type" : "quit"
+            }
+        }
+    },
+    
+    "other":
+    { 
+        "panorama":{  
+            "images":"cmm:textures/panorama/panorama_%c.png",
+            "blur":true,
+            "gradient":true
+        }
+    }
+}
