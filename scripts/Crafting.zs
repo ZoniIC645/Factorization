@@ -19,12 +19,12 @@ mods.immersiveengineering.Mixer.addRecipe(<liquid:abyss_stew>*200, <liquid:dist_
 infuseFluid(<minecraft:bowl>,<liquid:abyss_stew>,<contenttweaker:abyss_stew>,300,2000);
 
 //Happiness_Fluid
-mods.immersiveengineering.Mixer.addRecipe(<liquid:happiness_fluid>*500,<liquid:dist_water>*500,[<minecraft:ghast_tear>,<minecraft:red_flower>,<immersiveengineering:seed>],4800);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:happiness_fluid>*100,<liquid:dist_water>*500,[<minecraft:ghast_tear>,<minecraft:red_flower>,<immersiveengineering:seed>],4800);
 
 //Happiness_Circuit
 mods.thaumcraft.Infusion.registerRecipe("void_happiness_circuit","",<contenttweaker:void_happiness_circuit>, 20,[<aspect:aer>*64,<aspect:terra>*64,<aspect:ignis>*64,<aspect:aqua>*64,<aspect:ordo>*64,<aspect:perditio>*64],<immersiveengineering:material:27>, [<contenttweaker:obsidian_prime>,<minecraft:book>,<exnihilocreatio:item_material:5>]);
 mods.pneumaticcraft.pressurechamber.addRecipe([<contenttweaker:void_happiness_circuit>,<thaumcraft:brain>*10], 5, [<contenttweaker:happiness_circuit>]);
-infuseFluid(<contenttweaker:burnt_happiness_circuit>,<liquid:happiness_fluid>,<contenttweaker:happiness_circuit>,4800,5000);
+infuseFluid(<contenttweaker:burnt_happiness_circuit>,<liquid:happiness_fluid>,<contenttweaker:happiness_circuit>,4800,2000);
 
 //biological goo
 mods.tconstruct.Alloy.addRecipe(<liquid:bio_goo> * 10, [<liquid:biomass> * 80, <liquid:if.ore_fluid_raw>.withTag({Ore: "oreIron"}) * 10]);
@@ -74,7 +74,7 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:bluebird>*3, <c
 
 //twitter
 mods.techreborn.chemicalReactorRecipe.addRecipe(<contenttweaker:offline_twitter>, <contenttweaker:bluebird>, <ore:ingotDemonicMetal>, 40, 128);
-mods.pneumaticcraft.pressurechamber.addRecipe([<contenttweaker:offline_twitter> * 8,<extrautils2:terraformer:1>], 3.0, [<contenttweaker:twitter>]);
+mods.pneumaticcraft.pressurechamber.addRecipe([<contenttweaker:offline_twitter>,<extrautils2:terraformer:1>], 3.0, [<contenttweaker:twitter>]);
 
 //little prince 
 mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:hat>,<minecraft:leather_helmet> , <contenttweaker:happiness_circuit>, 9600, <contenttweaker:burnt_happiness_circuit>, 100);
