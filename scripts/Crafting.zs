@@ -32,7 +32,6 @@ infuseFluid(<minecraft:iron_ingot>,<liquid:bio_goo>,<contenttweaker:biological_i
 
 //stalinless steel
 mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:stalinless_steel>, <ore:ingotRefinedIron> * 6, <enderio:item_alloy_ingot:9> * 2, 500, 2048, [<ore:dustSmallManganese>, <ore:ingotChrome>], "Alloying");
-
 //essence of greed
 infuseFluid(<enderio:item_material:17>,<liquid:xpjuice>,<contenttweaker:greed_crystal>,4800,1337);
 
@@ -88,4 +87,3 @@ recipes.addShaped(<contenttweaker:python>,[[<contenttweaker:snake_slough>, <cont
 
 //sprucians
 recipes.addShaped(<contenttweaker:sprucians>, [[<minecraft:planks:1>*16, <appliedenergistics2:facade>, <minecraft:planks:1>*16],[<appliedenergistics2:facade>, <minecraft:sign>*3, <appliedenergistics2:facade>], [<bibliocraft:potionshelf:1>, <appliedenergistics2:facade>, <bibliocraft:potionshelf:1>]]);
-
