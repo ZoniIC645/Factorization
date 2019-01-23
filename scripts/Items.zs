@@ -117,3 +117,6 @@ python.register();
 //sprucians
 var sprucians = VanillaFactory.createItem("sprucians");
 sprucians.register();
+
+//meta
+var meta = VanillaFactory.createItem("meta");

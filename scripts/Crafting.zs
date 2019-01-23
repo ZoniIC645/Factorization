@@ -19,7 +19,8 @@ mods.immersiveengineering.Mixer.addRecipe(<liquid:abyss_stew>*200, <liquid:dist_
 infuseFluid(<minecraft:bowl>,<liquid:abyss_stew>,<contenttweaker:abyss_stew>,300,2000);
 
 //Happiness_Fluid
-mods.immersiveengineering.Mixer.addRecipe(<liquid:happiness_fluid>*100,<liquid:dist_water>*500,[<minecraft:ghast_tear>,<minecraft:red_flower>,<immersiveengineering:seed>],4800);
+	//poppy+hemp+ghast tear
+	mods.immersiveengineering.Mixer.addRecipe(<liquid:happiness_fluid>*100,<liquid:dist_water>*500,[<minecraft:ghast_tear>,<minecraft:red_flower>,<immersiveengineering:seed>],4800);
 
 //Happiness_Circuit
 mods.thaumcraft.Infusion.registerRecipe("void_happiness_circuit","",<contenttweaker:void_happiness_circuit>, 20,[<aspect:aer>*64,<aspect:terra>*64,<aspect:ignis>*64,<aspect:aqua>*64,<aspect:ordo>*64,<aspect:perditio>*64],<immersiveengineering:material:27>, [<contenttweaker:obsidian_prime>,<minecraft:book>,<exnihilocreatio:item_material:5>]);
