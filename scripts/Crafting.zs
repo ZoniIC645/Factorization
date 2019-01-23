@@ -88,3 +88,7 @@ recipes.addShaped(<contenttweaker:python>,[[<contenttweaker:snake_slough>, <cont
 
 //sprucians
 recipes.addShaped(<contenttweaker:sprucians>, [[<minecraft:planks:1>*16, <appliedenergistics2:facade>, <minecraft:planks:1>*16],[<appliedenergistics2:facade>, <minecraft:sign>*3, <appliedenergistics2:facade>], [<bibliocraft:potionshelf:1>, <appliedenergistics2:facade>, <bibliocraft:potionshelf:1>]]);
+
+//kongaltan
+recipes.addShapeless(<contenttweaker:kongaltan>, [<ore:dustTinySulfur>,<ore:dustSaltpeter>,<ore:dustSmallCharcoal>,<ore:paper>]);
+mods.pneumaticcraft.explosioncrafting.addRecipe(<contenttweaker:kongaltan>, <contenttweaker:kongaltan_ash>, 90);

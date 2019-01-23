@@ -120,3 +120,9 @@ sprucians.register();
 
 //meta
 var meta = VanillaFactory.createItem("meta");
+
+//kongaltan
+var kongaltan = VanillaFactory.createItem("kongaltan");
+var kongaltan_ash = VanillaFactory.createItem("kongaltan_ash");
+kongaltan.register();
+kongaltan_ash.register();

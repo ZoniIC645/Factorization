@@ -13,6 +13,7 @@ mods.ScoreBoard.addItemScore(<contenttweaker:hots_used>,1500);
 mods.ScoreBoard.addItemScore(<contenttweaker:hots>,7000);
 mods.ScoreBoard.addItemScore(<contenttweaker:bluebird>,600);
 mods.ScoreBoard.addItemScore(<contenttweaker:offline_twitter>,700);
+mods.ScoreBoard.addItemScore(<contenttweaker:biological_iron>,360);
 
 //fluid
 mods.ScoreBoard.addFluidScore(<liquid:liquid_death>,2.4);
