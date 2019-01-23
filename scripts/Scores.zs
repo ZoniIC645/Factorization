@@ -16,3 +16,4 @@ mods.ScoreBoard.addItemScore(<contenttweaker:offline_twitter>,700);
 
 //fluid
 mods.ScoreBoard.addFluidScore(<liquid:liquid_death>,2.4);
+mods.ScoreBoard.addFluidScore(<liquid:ic2uu_matter>,130);
