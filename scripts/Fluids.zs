@@ -28,3 +28,4 @@ var naphtha = VanillaFactory.createFluid("naphtha",Color.fromHex("63616d"));
 naphtha.register();
 
 var liquidethene = VanillaFactory.createFluid("liquidethene",Color.fromHex("72ecff"));
+liquidethene.register();
