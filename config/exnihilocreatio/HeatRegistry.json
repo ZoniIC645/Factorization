@@ -3,5 +3,10 @@
   "minecraft:torch:-1": 1,
   "minecraft:flowing_lava:-1": 3,
   "minecraft:lava:-1": 3,
-  "thermalfoundation:fluid_pyrotheum:-1": 15
+  "thermalfoundation:fluid_pyrotheum:-1": 20,
+  "immersiveengineering:storage:5": 10,
+  "ic2:resource:10": 10,
+  "tconstruct:slime_congealed:4": 20,
+  "ic2:hot_coolant": 20,
+  "ic2:pahoehoe_lava": 10,
 }

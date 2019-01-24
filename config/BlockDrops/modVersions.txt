@@ -6,7 +6,7 @@
   "contenttweaker": "1.12.2-4.9.1",
   "tc6aspects4jei": "0.0.2a",
   "biggercraftingtables": "1.12.2-2.1",
-  "endercore": "1.12.2-0.5.43",
+  "endercore": "1.12.2-0.5.45",
   "thaumicjei": "1.2.1",
   "reborncore": "3.13.1.402",
   "scoreboard": "1.12.0.1",
