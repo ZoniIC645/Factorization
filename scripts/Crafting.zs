@@ -95,8 +95,9 @@ mods.pneumaticcraft.explosioncrafting.addRecipe(<contenttweaker:kongaltan>, <con
 
 //ultimate
 	//overcharged_iron
-	mods.mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:overcharged_iron>,<ore:ingotIron>, 100000);
-mods.enderio.Vat.addRecipe(<liquid:ultimate>,<liquid:ic2uu_matter>, [<techreborn:uumatter>], 1,[<contenttweaker:overcharged_iron>], 1, 1000000);
+	mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:overcharged_iron>,<minecraft:iron_ingot>, 100000);
+	mods.enderio.Vat.addRecipe(<liquid:ultimate>,<liquid:ic2uu_matter>, [<techreborn:uumatter>], [1],[<contenttweaker:overcharged_iron>], [1], 1000000);
+
 //plastick	
 	//naphtha->liquidethene
 	mods.techreborn.centrifuge.addRecipe(null,null,<techreborn:dynamiccell>*3,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "liquidethene", Amount: 1000}}),<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "naphtha", Amount: 1000}})*4,null, 600, 100);
