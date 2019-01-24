@@ -92,3 +92,18 @@ recipes.addShaped(<contenttweaker:sprucians>, [[<minecraft:planks:1>*16, <applie
 //kongaltan
 recipes.addShapeless(<contenttweaker:kongaltan>, [<ore:dustTinySulfur>,<ore:dustSaltpeter>,<ore:dustSmallCharcoal>,<ore:paper>]);
 mods.pneumaticcraft.explosioncrafting.addRecipe(<contenttweaker:kongaltan>, <contenttweaker:kongaltan_ash>, 90);
+
+//ultimate
+	//overcharged_iron
+	mods.mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:overcharged_iron>,<ore:ingotIron>, 100000);
+mods.enderio.Vat.addRecipe(<liquid:ultimate>,<liquid:ic2uu_matter>, [<techreborn:uumatter>], 1,[<contenttweaker:overcharged_iron>], 1, 1000000);
+//plastick	
+	//naphtha->liquidethene
+	mods.techreborn.centrifuge.addRecipe(null,null,<techreborn:dynamiccell>*3,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "liquidethene", Amount: 1000}}),<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "naphtha", Amount: 1000}})*4,null, 600, 100);
+	//liquidethene -> plastic liquid
+		//remove
+		mods.pneumaticcraft.thermopneumaticprocessingplant.removeRecipe(<liquid:plastic>);
+		//add
+		mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:liquidethene>, null,5, 600, <liquid:plastic>);
+	//plastick
+	mods.techreborn.vacuumFreezer.addRecipe(<contenttweaker:plastick>,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "plastic", Amount: 1000}}), 300, 80);

@@ -20,4 +20,11 @@ molten_bloom.register();
 
 var overheated_mana_steam = VanillaFactory.createFluid("overheated_mana_steam",Color.fromHex("2641a5"));
 overheated_mana_steam.register();
-//asdf
+
+var ultimate = VanillaFactory.createFluid("ultimate",Color.fromHex("0f4296"));
+ultimate.register();
+
+var naphtha = VanillaFactory.createFluid("naphtha",Color.fromHex("63616d"));
+naphtha.register();
+
+var liquidethene = VanillaFactory.createFluid("liquidethene",Color.fromHex("72ecff"));

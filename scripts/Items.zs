@@ -118,11 +118,18 @@ python.register();
 var sprucians = VanillaFactory.createItem("sprucians");
 sprucians.register();
 
-//meta
+//meta & overcharged_iron
 var meta = VanillaFactory.createItem("meta");
+var overcharged_iron = VanillaFactory.createItem("overcharged_iron");
+meta.register();
+overcharged_iron.register();
 
 //kongaltan
 var kongaltan = VanillaFactory.createItem("kongaltan");
 var kongaltan_ash = VanillaFactory.createItem("kongaltan_ash");
 kongaltan.register();
 kongaltan_ash.register();
+
+//plastick
+var plastick = VanillaFactory.createItem("plastick");
+plastick.register();
