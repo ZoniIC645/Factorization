@@ -96,7 +96,7 @@ mods.pneumaticcraft.explosioncrafting.addRecipe(<contenttweaker:kongaltan>, <con
 //ultimate
 	//overcharged_iron
 	mods.thermalexpansion.Infuser.addRecipe(<contenttweaker:overcharged_iron>,<minecraft:iron_ingot>, 100000);
-	mods.enderio.Vat.addRecipe(<liquid:ultimate>*1,<liquid:ic2uu_matter>*1, [<techreborn:uumatter>], [1],[<contenttweaker:overcharged_iron>], [1], 1000000);
+	mods.immersiveengineering.Mixer.addRecipe(<liquid:ultimate>*10, <liquid:ic2uu_matter>*10, [<techreborn:uumatter>,<contenttweaker:overcharged_iron>], 100000);
 //meta_matter
 	infuseFluid(<minecraft:glass>,<liquid:ultimate>,<contenttweaker:meta_matter>,100000,500);
 
