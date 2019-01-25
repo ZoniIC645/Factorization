@@ -133,3 +133,13 @@ kongaltan_ash.register();
 //plastick
 var plastick = VanillaFactory.createItem("plastick");
 plastick.register();
+
+//advanced heating unit
+var heat1 = VanillaFactory.createBlock("heat1",<blockmaterial:anvil>);
+var heat2 = VanillaFactory.createBlock("heat2",<blockmaterial:anvil>);
+var heat3 = VanillaFactory.createBlock("heat3",<blockmaterial:anvil>);
+var heat4 = VanillaFactory.createBlock("heat4",<blockmaterial:anvil>);
+heat1.register();
+heat2.register();
+heat3.register();
+heat4.register();

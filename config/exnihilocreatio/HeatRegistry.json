@@ -9,4 +9,8 @@
   "tconstruct:slime_congealed:4": 20,
   "ic2:hot_coolant": 20,
   "ic2:pahoehoe_lava": 10,
+  "contenttweaker:heat1": 50,
+  "contenttweaker:heat2": 100,
+  "contenttweaker:heat3": 200,
+  "contenttweaker:heat4": 500
 }
