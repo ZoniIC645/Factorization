@@ -10,7 +10,6 @@ import crafttweaker.item.IItemStack as IItemStack;
 
 //Obsidian_Prime
 var Obsidian_Prime = VanillaFactory.createItem("obsidian_prime");
-Obsidian_Prime.maxStackSize = 1;
 Obsidian_Prime.register();
 
 //Unstable_Obsidian_Prime
@@ -118,11 +117,11 @@ python.register();
 var sprucians = VanillaFactory.createItem("sprucians");
 sprucians.register();
 
-//meta & overcharged_iron
-var meta = VanillaFactory.createItem("meta");
+//overcharged_iron & meta_matter
 var overcharged_iron = VanillaFactory.createItem("overcharged_iron");
-meta.register();
+var meta_matter = VanillaFactory.createItem("meta_matter");
 overcharged_iron.register();
+meta_matter.register();
 
 //kongaltan
 var kongaltan = VanillaFactory.createItem("kongaltan");
