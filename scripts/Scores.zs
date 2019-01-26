@@ -16,6 +16,8 @@ mods.ScoreBoard.addItemScore(<contenttweaker:bluebird>,600);
 mods.ScoreBoard.addItemScore(<contenttweaker:offline_twitter>,700);
 mods.ScoreBoard.addItemScore(<contenttweaker:biological_iron>,360);
 mods.ScoreBoard.addItemScore(<contenttweaker:kongaltan_ash>,250);
+mods.ScoreBoard.addItemScore(<contenttweaker:beeholders_eye>,960);
+mods.ScoreBoard.addItemScore(<contenttweaker:plastick>,1250);
 
 //fluid
 mods.ScoreBoard.addFluidScore(<liquid:liquid_death>,2.4);

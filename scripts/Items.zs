@@ -142,3 +142,9 @@ heat1.register();
 heat2.register();
 heat3.register();
 heat4.register();
+
+//argon_discharge_tube
+var argon_discharge_tube = VanillaFactory.createItem("argon_discharge_tube");
+var discharge_tube = VanillaFactory.createItem("discharge_tube");
+argon_discharge_tube.register();
+discharge_tube.register();
