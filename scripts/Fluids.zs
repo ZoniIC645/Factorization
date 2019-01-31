@@ -39,8 +39,11 @@ liquidair.register();
 var liquidoxygen = VanillaFactory.createFluid("liquidoxygen",Color.fromHex("efe1e1"));
 liquidoxygen.register();
 
-var airnitrogen = VanillaFactory.createFluid("liquidnitrogen",Color.fromHex("d3bcbc"));
+var airargon = VanillaFactory.createFluid("airargon",Color.fromHex("c1baba"));
+airargon.register();	
+
+var airnitrogen = VanillaFactory.createFluid("airnitrogen",Color.fromHex("d3bcbc"));
 airnitrogen.register();
 
-var airargon = VanillaFactory.createFluid("airargon",Color.fromHex("c1baba"));
-airargon.register();
+var enhanced_rocket_fuel = VanillaFactory.createFluid("enhanced_rocket_fuel",Color.fromHex("004f00"));
+enhanced_rocket_fuel.register();

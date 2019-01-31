@@ -18,7 +18,8 @@ mods.ScoreBoard.addItemScore(<contenttweaker:biological_iron>,360);
 mods.ScoreBoard.addItemScore(<contenttweaker:kongaltan_ash>,250);
 mods.ScoreBoard.addItemScore(<contenttweaker:beeholders_eye>,960);
 mods.ScoreBoard.addItemScore(<contenttweaker:plastick>,1250);
+mods.ScoreBoard.addItemScore(<contenttweaker:meta_matter>,6000);
 
 //fluid
 mods.ScoreBoard.addFluidScore(<liquid:liquid_death>,2.4);
-mods.ScoreBoard.addFluidScore(<liquid:ic2uu_matter>,130);
+mods.ScoreBoard.addFluidScore(<liquid:ic2uu_matter>,150);

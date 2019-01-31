@@ -110,8 +110,31 @@ infuseFluid(<minecraft:ender_pearl>,<liquid:liquid_death>,<contenttweaker:hots_u
 	//plastick
 	mods.techreborn.vacuumFreezer.addRecipe(<contenttweaker:plastick>,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "liquidplastic", Amount: 1000}}), 300, 80);
 
+//heater
+	recipes.addShaped(<contenttweaker:heat4>, [[<techreborn:plates:32>, <contenttweaker:alkaline_battery>, <techreborn:plates:32>],[<contenttweaker:sunshine_battery>, <ic2:te:12>, <contenttweaker:sunshine_battery>], [<techreborn:plates:32>, <contenttweaker:alkaline_battery>, <techreborn:plates:32>]]);
+	recipes.addShaped(<contenttweaker:heat4>, [[<techreborn:plates:32>, <forestry:bituminous_peat>, <techreborn:plates:32>],[<forestry:bituminous_peat>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidheliumplasma", Amount: 1000}}).onlyWithTag({Fluid: {FluidName: "fluidheliumplasma", Amount: 1000}}), <forestry:bituminous_peat>], [<techreborn:plates:32>, <forestry:bituminous_peat>, <techreborn:plates:32>]]);
+	recipes.addShaped(<contenttweaker:heat4> * 3, [[<techreborn:plates:32>, <techreborn:part>, <techreborn:plates:32>],[<techreborn:part:8>, <techreborn:lapotronicorb>, <techreborn:part:11>], [<techreborn:plates:32>, <techreborn:part:37>, <techreborn:plates:32>]]);
+	recipes.addShaped(<contenttweaker:heat4> * 3, [[<techreborn:plates:32>, <botania:rune:5>, <techreborn:plates:32>],[<botania:manaresource>, <botania:manaresource:5>, <botania:manaresource:7>], [<techreborn:plates:32>, <botania:manaresource:4>, <techreborn:plates:32>]]);
+	recipes.addShaped(<contenttweaker:heat3> * 5, [[<botania:manaresource:4>, <ore:manaDiamond>, <botania:manaresource:4>],[<forestry:thermionic_tubes:7>, <botania:specialflower>.withTag({type: "exoflame"}), <forestry:thermionic_tubes:7>], [<botania:manaresource:4>, <botania:manaresource:1>, <botania:manaresource:4>]]);
+	recipes.addShaped(<contenttweaker:heat3> * 5, [[<thaumcraft:ingot:1>, <ore:nitor>, <thaumcraft:ingot:1>],[<forestry:thermionic_tubes:7>, <thaumcraft:phial:1>, <forestry:thermionic_tubes:7>], [<thaumcraft:ingot:1>, <thaumcraft:alumentum>, <thaumcraft:ingot:1>]]);
+	recipes.addShaped(<contenttweaker:heat3> * 3, [[<thaumcraft:ingot>, <ore:nitor>, <thaumcraft:ingot>],[<forestry:thermionic_tubes:7>, <thaumcraft:phial:1>, <forestry:thermionic_tubes:7>], [<thaumcraft:ingot>, <thaumcraft:alumentum>, <thaumcraft:ingot>]]);
+	recipes.addShaped(<contenttweaker:heat3> * 3, [[<botania:manaresource:7>, <botania:manaresource:8>, <botania:manaresource:7>],[<forestry:thermionic_tubes:7>, <botania:specialflower>.withTag({type: "exoflame"}), <forestry:thermionic_tubes:7>], [<botania:manaresource:7>, <botania:manaresource:9>, <botania:manaresource:7>]]);
+	recipes.addShaped(<contenttweaker:heat3> * 2, [[<botania:manaresource>, <botania:manaresource:1>, <botania:manaresource>],[<forestry:thermionic_tubes:7>, <botania:specialflower>.withTag({type: "exoflame"}), <forestry:thermionic_tubes:7>], [<botania:manaresource>, <botania:manaresource:2>, <botania:manaresource>]]);
+	recipes.addShaped(<contenttweaker:heat2> * 4, [[null, <techreborn:part:7>, null],[<ic2:nuclear:3>, <ic2:te:24>, <ic2:nuclear:3>], [null, <techreborn:part:7>, null]]);
+	recipes.addShaped(<contenttweaker:heat2> * 4, [[null, <techreborn:part:10>, null],[<ic2:nuclear:3>, <ic2:te:24>, <ic2:nuclear:3>], [null, <techreborn:part:10>, null]]);
+	recipes.addShaped(<contenttweaker:heat2> * 2, [[<techreborn:part:36>, <techreborn:part:36>, <techreborn:part:36>],[<ic2:nuclear:3>, <ic2:te:24>, <ic2:nuclear:3>], [<techreborn:part:36>, <techreborn:part:36>, <techreborn:part:36>]]);
+	recipes.addShaped(<contenttweaker:heat2> * 2, [[null, <techreborn:part:7>, null],[<ic2:nuclear:1>, <ic2:te:24>, <ic2:nuclear:1>], [null, <techreborn:part:7>, null]]);
+	recipes.addShaped(<contenttweaker:heat2> * 2, [[null, <techreborn:part:10>, null],[<ic2:nuclear:1>, <ic2:te:24>, <ic2:nuclear:1>], [null, <techreborn:part:10>, null]]);
+	recipes.addShaped(<contenttweaker:heat2>, [[<techreborn:part:36>, <techreborn:part:36>, <techreborn:part:36>],[<ic2:nuclear:1>, <ic2:te:24>, <ic2:nuclear:1>], [<techreborn:part:36>, <techreborn:part:36>, <techreborn:part:36>]]);
+	recipes.addShaped(<contenttweaker:heat1>, [[<ic2:casing>, <ore:blockCoal>, <ic2:casing>],[<ore:blockCoal>, <techreborn:iron_furnace>, <ore:blockCoal>], [<ic2:casing>, <ore:blockCoal>, <ic2:casing>]]);
+	recipes.addShaped(<contenttweaker:heat1> * 4, [[<ic2:casing>, <techreborn:part:14>, <ic2:casing>],[<techreborn:part:14>, <techreborn:iron_furnace>, <techreborn:part:14>], [<ic2:casing>, <techreborn:part:14>, <ic2:casing>]]);
+	recipes.addShaped(<contenttweaker:heat1> * 3, [[<ic2:casing>, <techreborn:part:15>, <ic2:casing>],[<techreborn:part:15>, <techreborn:iron_furnace>, <techreborn:part:15>], [<ic2:casing>, <techreborn:part:15>, <ic2:casing>]]);
+	recipes.addShaped(<contenttweaker:heat1>, [[<ic2:casing>, <techreborn:part:13>, <ic2:casing>],[<techreborn:part:13>, <techreborn:iron_furnace>, <techreborn:part:13>], [<ic2:casing>, <techreborn:part:13>, <ic2:casing>]]);
+	recipes.addShaped(<contenttweaker:heat1> * 2, [[<ic2:casing>, <ore:blockFuelCoke>, <ic2:casing>],[<ore:blockFuelCoke>, <techreborn:iron_furnace>, <ore:blockFuelCoke>], [<ic2:casing>, <ore:blockFuelCoke>, <ic2:casing>]]);
+	recipes.addShaped(<contenttweaker:heat1>, [[<ic2:casing>, <forge:bucketfilled>.withTag({FluidName: "fire_water", Amount: 1000}).onlyWithTag({FluidName: "fire_water", Amount: 1000}), <ic2:casing>],[<forge:bucketfilled>.withTag({FluidName: "fire_water", Amount: 1000}).onlyWithTag({FluidName: "fire_water", Amount: 1000}), <techreborn:iron_furnace>, <forge:bucketfilled>.withTag({FluidName: "fire_water", Amount: 1000}).onlyWithTag({FluidName: "fire_water", Amount: 1000})], [<ic2:casing>, <forge:bucketfilled>.withTag({FluidName: "fire_water", Amount: 1000}).onlyWithTag({FluidName: "fire_water", Amount: 1000}), <ic2:casing>]]);
+
 //liquidair
-	mods.techreborn.compressor.addRecipe(<ic2:fluid_cell>.withTag({	Fluid: {FluidName: "liquidair", Amount: 1000}}),<ic2:fluid_cell>, 60, 40);
+	mods.techreborn.compressor.addRecipe(<ic2:fluid_cell>.withTag({	Fluid: {FluidName: "fluidcompressedair", Amount: 1000}}),<ic2:fluid_cell>, 60, 40);
 	mods.techreborn.vacuumFreezer.addRecipe(<ic2:fluid_cell>.withTag({Fluid: {FluidName: "liquidair", Amount: 1000}}), <ic2:fluid_cell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}}), 60, 30);
 		//fraction distillation
 		mods.immersivepetroleum.Distillation.addRecipe([<liquid:liquidoxygen>*21,<liquid:airargon>*1,<liquid:airnitrogen>*78], [<ic2:crafting:23>], <liquid:liquidair>*100, 100, 1, [0.1]);
@@ -119,4 +142,4 @@ infuseFluid(<minecraft:ender_pearl>,<liquid:liquid_death>,<contenttweaker:hots_u
 				recipes.addShaped(<contenttweaker:discharge_tube>,[[<minecraft:glass>,<minecraft:glass>,<minecraft:glass>],[<techreborn:cable>,null,<techreborn:cable>],[<minecraft:glass>,<minecraft:glass>,<minecraft:glass>]]);
 				infuseFluid(<contenttweaker:discharge_tube>,<liquid:airargon>,<contenttweaker:argon_discharge_tube>,1000,100);
 			//enhanced_rocket_fuel
-				
+				mods.tconstruct.Alloy.addRecipe(<liquid:enhanced_rocket_fuel>*1000, [<liquid:liquidoxygen>*2000,<liquid:rocket_fuel>*500]);
