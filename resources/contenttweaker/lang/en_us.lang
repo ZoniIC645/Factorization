@@ -37,6 +37,8 @@ item.contenttweaker.sprucians.name=sprucians
 item.contenttweaker.offline_twitter=offline twitter
 item.contenttweaker.twitter=twitter
 item.contenttweaker.meta_matter=Meta matter
+item.contenttweaker.argon_discharge_tube=Argon Discharge Tube
+item.contenttweaker.discharge_tube=Discharge Tube
 tile.contenttweaker.block_bloom.name=Bloom Block
 tile.contenttweaker.manastone.name=ManaStone
 tile.contenttweaker.block_bloom.name=Bloom Block
@@ -55,3 +57,7 @@ fluid.overheated_mana_steam=Overheated Mana Steam
 fluid.naphtha=naphtha
 fluid.liquidplastic=High purity plastic
 fluid.liquidethene=ethylene
+fluid.airargon=Air argon
+fluid.airnitrogen=Air nitrogen
+fluid.liquidair=Liquid air
+fluid.

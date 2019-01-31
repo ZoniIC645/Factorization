@@ -111,10 +111,12 @@ infuseFluid(<minecraft:ender_pearl>,<liquid:liquid_death>,<contenttweaker:hots_u
 	mods.techreborn.vacuumFreezer.addRecipe(<contenttweaker:plastick>,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "liquidplastic", Amount: 1000}}), 300, 80);
 
 //liquidair
+	mods.techreborn.compressor.addRecipe(<ic2:fluid_cell>.withTag({	Fluid: {FluidName: "liquidair", Amount: 1000}}),<ic2:fluid_cell>, 60, 40);
 	mods.techreborn.vacuumFreezer.addRecipe(<ic2:fluid_cell>.withTag({Fluid: {FluidName: "liquidair", Amount: 1000}}), <ic2:fluid_cell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}}), 60, 30);
 		//fraction distillation
-		mods.immersivepetroleum.Distillation.addRecipe([<liquid:liquidnitrogen>*78,<liquid:liquidoxygen>*21,<liquid:liquidargon>*1], [null], <liquid:liquidair>*100, 100, 1, [0]);
-
-//argon_discharge_tube
-	recipes.addShaped(<contenttweaker:discharge_tube>,[[<minecraft:glass>,<minecraft:glass>,<minecraft:glass>],[<techreborn:cable>,null,<techreborn:cable>],[<minecraft:glass>,<minecraft:glass>,<minecraft:glass>]]);
-	infuseFluid(<contenttweaker:discharge_tube>,<liquid:airargon>,<contenttweaker:argon_discharge_tube>,1000,5000);
+		mods.immersivepetroleum.Distillation.addRecipe([<liquid:liquidoxygen>*21,<liquid:airargon>*1,<liquid:airnitrogen>*78], [<ic2:crafting:23>], <liquid:liquidair>*100, 100, 1, [0.1]);
+			//argon_discharge_tube
+				recipes.addShaped(<contenttweaker:discharge_tube>,[[<minecraft:glass>,<minecraft:glass>,<minecraft:glass>],[<techreborn:cable>,null,<techreborn:cable>],[<minecraft:glass>,<minecraft:glass>,<minecraft:glass>]]);
+				infuseFluid(<contenttweaker:discharge_tube>,<liquid:airargon>,<contenttweaker:argon_discharge_tube>,1000,100);
+			//enhanced_rocket_fuel
+				
