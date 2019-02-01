@@ -148,3 +148,8 @@ var argon_discharge_tube = VanillaFactory.createItem("argon_discharge_tube");
 var discharge_tube = VanillaFactory.createItem("discharge_tube");
 argon_discharge_tube.register();
 discharge_tube.register();
+
+//ammonia&new age fertilizer
+var fine_iron_dust = VanillaFactory.createItem("fine_iron_dust");
+var fine_magnetite = VanillaFactory.createItem("fine_magnetite");
+

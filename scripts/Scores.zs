@@ -19,7 +19,10 @@ mods.ScoreBoard.addItemScore(<contenttweaker:kongaltan_ash>,250);
 mods.ScoreBoard.addItemScore(<contenttweaker:beeholders_eye>,960);
 mods.ScoreBoard.addItemScore(<contenttweaker:plastick>,1250);
 mods.ScoreBoard.addItemScore(<contenttweaker:meta_matter>,6000);
+mods.ScoreBoard.addItemScore(<contenttweaker:argon_discharge_tube>,452);
 
 //fluid
 mods.ScoreBoard.addFluidScore(<liquid:liquid_death>,2.4);
 mods.ScoreBoard.addFluidScore(<liquid:ic2uu_matter>,150);
+mods.ScoreBoard.addFluidScore(<liquid:ic2uu_matter>,150);
+mods.ScoreBoard.addFluidScore(<liquid:ic2uu_matter>,0.063);

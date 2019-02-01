@@ -143,3 +143,6 @@ infuseFluid(<minecraft:ender_pearl>,<liquid:liquid_death>,<contenttweaker:hots_u
 				infuseFluid(<contenttweaker:discharge_tube>,<liquid:airargon>,<contenttweaker:argon_discharge_tube>,1000,100);
 			//enhanced_rocket_fuel
 				mods.tconstruct.Alloy.addRecipe(<liquid:enhanced_rocket_fuel>*1000, [<liquid:liquidoxygen>*2000,<liquid:rocket_fuel>*500]);
+				
+				//ammonia&fert
+				
