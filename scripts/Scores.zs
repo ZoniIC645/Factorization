@@ -24,5 +24,4 @@ mods.ScoreBoard.addItemScore(<contenttweaker:argon_discharge_tube>,452);
 //fluid
 mods.ScoreBoard.addFluidScore(<liquid:liquid_death>,2.4);
 mods.ScoreBoard.addFluidScore(<liquid:ic2uu_matter>,150);
-mods.ScoreBoard.addFluidScore(<liquid:ic2uu_matter>,150);
-mods.ScoreBoard.addFluidScore(<liquid:ic2uu_matter>,0.063);
+mods.ScoreBoard.addFluidScore(<liquid:enhanced_rocket_fuel>,0.063);

@@ -152,4 +152,6 @@ discharge_tube.register();
 //ammonia&new age fertilizer
 var fine_iron_dust = VanillaFactory.createItem("fine_iron_dust");
 var fine_magnetite = VanillaFactory.createItem("fine_magnetite");
+var fert = VanillaFactory.createItem("fert");
+var boxed_fert = VanillaFactory.creatItem("boxed_fert");
 

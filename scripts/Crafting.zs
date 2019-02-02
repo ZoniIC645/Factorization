@@ -23,7 +23,9 @@ function infuseFluid(input as IItemStack,fluid as ILiquidStack,output as IItemSt
 		mods.immersiveengineering.Mixer.addRecipe(<liquid:happiness_fluid>*100,<liquid:dist_water>*500,[<minecraft:ghast_tear>,<minecraft:red_flower>,<immersiveengineering:seed>],4800);
 
 //Happiness_Circuit
-	mods.thaumcraft.Infusion.registerRecipe("void_happiness_circuit","",<contenttweaker:void_happiness_circuit>, 20,[<aspect:aer>*64,<aspect:terra>*64,<aspect:ignis>*64,<aspect:aqua>*64,<aspect:ordo>*64,<aspect:perditio>*64],<immersiveengineering:material:27>, [<contenttweaker:obsidian_prime>,<minecraft:book>,<exnihilocreatio:item_material:5>]);
+		//rune alter / infusion
+		mods.thaumcraft.Infusion.registerRecipe("void_happiness_circuit","",<contenttweaker:void_happiness_circuit>, 20,[<aspect:aer>*64,<aspect:terra>*64,<aspect:ignis>*64,<aspect:aqua>*64,<aspect:ordo>*64,<aspect:perditio>*64],<immersiveengineering:material:27>, [<contenttweaker:obsidian_prime>,<minecraft:book>,<exnihilocreatio:item_material:5>]);
+		mods.botania.RuneAltar.addRecipe(<contenttweaker:void_happiness_circuit>, [<immersiveengineering:material:27>*3,<contenttweaker:obsidian_prime>*3,<minecraft:book>*3,<exnihilocreatio:item_material:5>*3], 1000000);
 	mods.pneumaticcraft.pressurechamber.addRecipe([<contenttweaker:void_happiness_circuit>,<thaumcraft:brain>*10], 5, [<contenttweaker:happiness_circuit>]);
 	infuseFluid(<contenttweaker:burnt_happiness_circuit>,<liquid:happiness_fluid>,<contenttweaker:happiness_circuit>,4800,2000);
 
@@ -33,6 +35,7 @@ function infuseFluid(input as IItemStack,fluid as ILiquidStack,output as IItemSt
 
 //stalinless steel
 	mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:stalinless_steel>, <ore:ingotRefinedIron> * 6, <enderio:item_alloy_ingot:9> * 2, 500, 2048, [<ore:dustSmallManganese>, <ore:ingotChrome>], "Alloying");
+
 //essence of greed
 	infuseFluid(<enderio:item_material:17>,<liquid:xpjuice>,<contenttweaker:greed_crystal>,4800,1337);
 
@@ -54,7 +57,7 @@ function infuseFluid(input as IItemStack,fluid as ILiquidStack,output as IItemSt
 	mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:chrome>,<ore:oreRuby>*5,null,300,300);
 
 //hots
-infuseFluid(<minecraft:ender_pearl>,<liquid:liquid_death>,<contenttweaker:hots_used>,4800,500);
+	infuseFluid(<minecraft:ender_pearl>,<liquid:liquid_death>,<contenttweaker:hots_used>,4800,500);
 	mods.immersiveengineering.ArcFurnace.addRecipe(<contenttweaker:hots>, <contenttweaker:hots_used>,<contenttweaker:burnt_happiness_circuit>, 3000, 480, [<contenttweaker:happiness_circuit>,<ic2:crafting:6>*4]);
 
 //manastone
@@ -143,6 +146,5 @@ infuseFluid(<minecraft:ender_pearl>,<liquid:liquid_death>,<contenttweaker:hots_u
 				infuseFluid(<contenttweaker:discharge_tube>,<liquid:airargon>,<contenttweaker:argon_discharge_tube>,1000,100);
 			//enhanced_rocket_fuel
 				mods.tconstruct.Alloy.addRecipe(<liquid:enhanced_rocket_fuel>*1000, [<liquid:liquidoxygen>*2000,<liquid:rocket_fuel>*500]);
-				
 				//ammonia&fert
 				

@@ -39,6 +39,8 @@ item.contenttweaker.twitter=twitter
 item.contenttweaker.meta_matter=Meta matter
 item.contenttweaker.argon_discharge_tube=Argon Discharge Tube
 item.contenttweaker.discharge_tube=Discharge Tube
+item.contenttweaker.fert=fertilizer
+item.contenttweaker.boxed_fert=Boxed fertilizer
 tile.contenttweaker.block_bloom.name=Bloom Block
 tile.contenttweaker.manastone.name=ManaStone
 tile.contenttweaker.block_bloom.name=Bloom Block
@@ -60,4 +62,5 @@ fluid.liquidethene=ethylene
 fluid.airargon=Air argon
 fluid.airnitrogen=Air nitrogen
 fluid.liquidair=Liquid air
-fluid.
+fluid.liquidoxygen=Liquid Oxygen
+fluid.enhanced_rocket_fuel=Enhanced Rocket Fuel
