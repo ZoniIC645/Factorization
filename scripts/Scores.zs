@@ -22,7 +22,7 @@ mods.ScoreBoard.addItemScore(<contenttweaker:meta_matter>,6000);
 mods.ScoreBoard.addItemScore(<contenttweaker:argon_discharge_tube>,452);
 mods.ScoreBoard.addItemScore(<contenttweaker:obsidian_prime>.108);
 mods.ScoreBoard.addItemScore(<contenttweaker:python>,4200);
-mods.ScoreBoard.addItemScore(<contenttweaker:elephant>,900)
+mods.ScoreBoard.addItemScore(<contenttweaker:elephant>,900);
 
 //fluid
 mods.ScoreBoard.addFluidScore(<liquid:liquid_death>,2.4);
