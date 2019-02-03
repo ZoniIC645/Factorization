@@ -147,4 +147,10 @@ function infuseFluid(input as IItemStack,fluid as ILiquidStack,output as IItemSt
 			//enhanced_rocket_fuel
 				mods.tconstruct.Alloy.addRecipe(<liquid:enhanced_rocket_fuel>*1000, [<liquid:liquidoxygen>*2000,<liquid:rocket_fuel>*500]);
 				//ammonia&fert
-				
+
+mods.thermalexpansion.Imbuer.addRecipe(<liquid:carbondioxide> * 1000, <minecraft:coal>, <liquid:liquidoxygen> * 1000, 2048);
+mods.enderio.SagMill.addRecipe([<contenttweaker:fine_magnetite>],[0.01],<ore:pieceIron>);
+mods.pneumaticcraft.pressurechamber.addRecipe([<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidhydrogen", Amount: 1000}}) * 4,<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "airnitrogen", Amount: 1000}}), <contenttweaker:fine_magnetite>], 4, [<contenttweaker:fine_magnetite>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "ammonia", Amount: 1000}})]);
+mods.techreborn.chemicalReactorRecipe.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "urea", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "ammonia", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "carbondioxide", Amount: 1000}}), 100, 32);
+infuseFluid(<forestry:fertilizer_compound>,<liquid:urea>,<contenttweaker:fert>,2000,250);
+mods.forestry.Carpenter.addRecipe(<contenttweaker:boxed_fert>, [[<contenttweaker:fert>,<contenttweaker:fert>,<contenttweaker:fert>],[<contenttweaker:fert>,<contenttweaker:fert>,<contenttweaker:fert>],[<contenttweaker:fert>,<contenttweaker:fert>,<contenttweaker:fert>]], 60, <liquid:water> * 100, <forestry:crate>);

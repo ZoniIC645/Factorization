@@ -47,3 +47,12 @@ airnitrogen.register();
 
 var enhanced_rocket_fuel = VanillaFactory.createFluid("enhanced_rocket_fuel",Color.fromHex("004f00"));
 enhanced_rocket_fuel.register();
+
+var ammonia = VanillaFactory.createFluid("ammonia",Color.fromHex("cccccc"));
+ammonia.register();
+
+var carbondioxide = VanillaFactory.createFluid("carbondioxide",Color.fromHex("444444"));
+carbondioxide.register();
+
+var urea = VanillaFactory.createFluid("urea",Color.fromHex("f230c8"));
+urea.register();

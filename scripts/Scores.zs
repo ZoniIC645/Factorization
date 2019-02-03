@@ -20,7 +20,7 @@ mods.ScoreBoard.addItemScore(<contenttweaker:beeholders_eye>,960);
 mods.ScoreBoard.addItemScore(<contenttweaker:plastick>,1250);
 mods.ScoreBoard.addItemScore(<contenttweaker:meta_matter>,6000);
 mods.ScoreBoard.addItemScore(<contenttweaker:argon_discharge_tube>,452);
-mods.ScoreBoard.addItemScore(<contenttweaker:obsidian_prime>.108);
+mods.ScoreBoard.addItemScore(<contenttweaker:obsidian_prime>,108);
 
 //fluid
 mods.ScoreBoard.addFluidScore(<liquid:liquid_death>,2.4);
