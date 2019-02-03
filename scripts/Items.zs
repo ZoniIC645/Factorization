@@ -153,5 +153,9 @@ discharge_tube.register();
 var fine_iron_dust = VanillaFactory.createItem("fine_iron_dust");
 var fine_magnetite = VanillaFactory.createItem("fine_magnetite");
 var fert = VanillaFactory.createItem("fert");
-var boxed_fert = VanillaFactory.creatItem("boxed_fert");
+var boxed_fert = VanillaFactory.createItem("boxed_fert");
+fine_magnetite.register();
+fine_iron_dust.register();
+fert.register();
+boxed_fert.register();
 
