@@ -23,6 +23,7 @@ mods.ScoreBoard.addItemScore(<contenttweaker:argon_discharge_tube>,452);
 mods.ScoreBoard.addItemScore(<contenttweaker:obsidian_prime>,108);
 mods.ScoreBoard.addItemScore(<contenttweaker:python>,4200);
 mods.ScoreBoard.addItemScore(<contenttweaker:elephant>,900);
+mods.ScoreBoard.addItemScore(<contenttweaker:boxed_fert>,816);
 
 
 //fluid
